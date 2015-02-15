@@ -12,7 +12,6 @@ relative_permalinks: true
 title:               Matt Newman
 tagline:             ''
 description:         ''
-url:                 http://mdjnewman.me
 baseurl:             /
 paginate:            5
 
@@ -20,6 +19,3 @@ paginate:            5
 author:
   name:              Matt Newman
   url:               http://mdjnewman.me
-
-# Custom vars
-version:             1.0.0
