@@ -19,17 +19,17 @@ In my own time, I’m learning more about functional programming (primarily usin
 
 The following is a list of the languages, tools and frameworks that I have some experience with.
 
-  * <strong style="line-height: 1.5;">Programming & scripting languages</strong><span style="line-height: 1.5;"> – C, C++, Java, C#, Python, Bash, PowerShell, Matlab</span>
+  * **Programming & scripting languages** – C, C++, Java, C#, Python, Bash, PowerShell, Matlab
   * **Development environments** – Eclipse, Visual Studio, Vim
   * **Project management & CI tools** – Atlassian Jira & Confluence, FogBugz, Kiln, Jenkins CI
   * **Source code management** – Subversion, Git (self hosted, GitHub), Mercurial (self hosted, Kiln)
   * **Testing frameworks** – Boost, JUnit, Selenium, Mockito
   * **Web development frameworks** – Spring Web MVC, ASP.NET, Django
-  * **C/C++ **frameworks/libraries**** – Boost, Google Test, OpenCV, Armadillo
+  * **C/C++ frameworks/libraries** – Boost, Google Test, OpenCV, Armadillo
   * **Java frameworks/libraries** – Spring Framework, Spring Security, Spring Data JPA, Hibernate (JPA provider), QueryDSL (and Maven as a build tool)
   * **C# frameworks/libraries** – Entity Framework
   * **Client side JavaScript and CSS frameworks/libraries** – jQuery, jQueryUI, Twitter Bootstrap
-  * <strong style="line-height: 1.5;">Information security tools</strong> – Wireshark, Snort
+  * **Information security tools** – Wireshark, Snort
   * **Web server software** – Apache httpd & Tomcat
   * **Cloud IAAS/PAAS providers** – Amazon AWS (this site runs on EC2), Google App Engine
 
