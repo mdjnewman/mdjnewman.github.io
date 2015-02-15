@@ -1,30 +1,43 @@
 ---
-layout: page
 title: About
+author: mdjnewman
+layout: page
 ---
+My name is Matt Newman, I&#8217;m an Engineering (Software) & Commerce (Finance) student at University of Queensland (UQ) in Brisbane, Queensland, Australia. I&#8217;ll be graduating in July 2014.
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+To get in touch, use any of the methods on the [contact me][1] page.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## Interests
 
-There are currently two themes built on Poole:
+As I have an interest in networking and information security, I chose Information Security ([COMS3000][2]), Computer Networks I ([COMS3200][3]), Advanced Computer and Network Security ([COMS4507][4]) and Computer Networks II ([COMS4200][5]) as during my degree at UQ. <span style="line-height: 1.5;">In order to learn different algorithm paradigms (such as divide & conquer, greedy algorithms and dynamic programming) and to learn more about graph data structures and related algorithms, </span><span style="line-height: 1.5;">I undertook Advanced Algorithms & Data Structures (</span><a style="line-height: 1.5;" title="COMP4500" href="https://www.uq.edu.au/study/course.html?course_code=COMP4500&offer=53544c554332494e&year=2012">COMP4500</a><span style="line-height: 1.5;">) for my final fourth year elective. </span><span style="line-height: 1.5;">A full list of the courses I&#8217;ve studied is on </span><a style="line-height: 1.5;" title="Matt Newman | LinkedIn" href="http://au.linkedin.com/in/mdjnewman/">my LinkedIn profile</a>.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I&#8217;m also interested in the design of scalable and distributed systems, and enjoy reading case studies from companies that deal with large amounts of traffic such as Amazon & Google.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+In my own time, I&#8217;m learning more about functional programming (primarily using Haskell).
 
-## Setup
+## Languages, tools and frameworks
 
-Some fun facts about the setup of this project include:
+The following is a list of the languages, tools and frameworks that I have some experience with.
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+  * <strong style="line-height: 1.5;">Programming & scripting languages</strong><span style="line-height: 1.5;"> &#8211; C, C++, Java, C#, Python, Bash, PowerShell, Matlab</span>
+  * **Development environments** &#8211; Eclipse, Visual Studio, Vim
+  * **Project management & CI tools** &#8211; Atlassian Jira & Confluence, FogBugz, Kiln, Jenkins CI
+  * **Source code management** &#8211; Subversion, Git (self hosted, GitHub), Mercurial (self hosted, Kiln)
+  * **Testing frameworks** &#8211; Boost, JUnit, Selenium, Mockito
+  * **Web development frameworks** &#8211; Spring Web MVC, ASP.NET, Django
+  * **C/C++ **frameworks/libraries**** &#8211; Boost, Google Test, OpenCV, Armadillo
+  * **Java frameworks/libraries** &#8211; Spring Framework, Spring Security, Spring Data JPA, Hibernate (JPA provider), QueryDSL (and Maven as a build tool)
+  * **C# frameworks/libraries** &#8211; Entity Framework
+  * **Client side JavaScript and CSS frameworks/libraries** &#8211; jQuery, jQueryUI, Twitter Bootstrap
+  * <strong style="line-height: 1.5;">Information security tools</strong> &#8211; Wireshark, Snort
+  * **Web server software** &#8211; Apache httpd & Tomcat
+  * **Cloud IAAS/PAAS providers** &#8211; Amazon AWS (this site runs on EC2), Google App Engine
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+Some projects I&#8217;ve worked on are listed on my [Careers 2.0 profile][6].
 
-Thanks for reading!
+ [1]: http://mdjnewman.me/contact-me/ "Contact me"
+ [2]: http://www.uq.edu.au/study/course.html?course_code=COMS3000&offer=53544c554332494e&year=2012 "COMS3000"
+ [3]: http://www.uq.edu.au/study/course.html?course_code=COMS3200&offer=53544c554332494e&year=2011 "COMS3200"
+ [4]: https://www.uq.edu.au/study/course.html?course_code=COMS4507&offer=53544c554331494e&year=2013 "COMS4507"
+ [5]: http://www.uq.edu.au/study/course.html?course_code=COMS4200&offer=53544c554332494e&year=2013 "COMS4200"
+ [6]: http://careers.stackoverflow.com/mdjnewman
