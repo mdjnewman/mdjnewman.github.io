@@ -7,9 +7,9 @@ categories:
   - Uncategorized
 format: quote
 ---
-> <span style="line-height: 1.5;">It&#8217;s just amazing how many mistakes [are made] and how bad programmers can be. Everything that is syntactically legal, that the compiler will accept, will eventually wind up in your code base . And that is why I think static typing is so valuable.</span>
+> <span style="line-height: 1.5;">It’s just amazing how many mistakes [are made] and how bad programmers can be. Everything that is syntactically legal, that the compiler will accept, will eventually wind up in your code base . And that is why I think static typing is so valuable.</span>
 
-[John Carmack][1] (full talk [here][2] &#8211; note this link jumps to this quote &#8211; part one of the keynote is [here][3]).
+[John Carmack][1] (full talk [here][2] – note this link jumps to this quote – part one of the keynote is [here][3]).
 
 Pretty much sums up how I feel about the static v. dynamic debate for anything other than very short-lived prototypes.
 

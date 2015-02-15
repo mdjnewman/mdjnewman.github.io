@@ -1,5 +1,5 @@
 ---
-title: 'Ubuntu 12.10 &#8211; Transmission fails to connect to HTTPS trackers'
+title: 'Ubuntu 12.10 – Transmission fails to connect to HTTPS trackers'
 author: mdjnewman
 layout: post
 permalink: /2013/01/ubuntu-12-10-transmission-fails-to-connect-to-https-trackers/
@@ -9,14 +9,14 @@ tags:
   - how-to
   - ubuntu
 ---
-[Transmission][1], the BitTorrent client installed by default in Ubuntu seems to have an issue with connecting to trackers using HTTPS at the moment.
+[Transmission][1], the BitTorrent client installed by default in Ubuntu seems to have an issue with connecting to trackers using HTTPS at the moment.
 
 After Transmission failed to connect to a tracker using HTTPS, I went searching and found this [bug report][2].
 
 The steps there are pretty simple and worked well for me:
 
   1. <span style="line-height: 15px;">Close Transmission</span>
-  2. Download the .deb for updated libgnutls26 from [here][3] (bottom of page &#8211; choose your architecture then mirror)
+  2. Download the .deb for updated libgnutls26 from [here][3] (bottom of page – choose your architecture then mirror)
   3. Install using <div class="wp_syntax">
       <table>
         <tr>
@@ -26,7 +26,7 @@ The steps there are pretty simple and worked well for me:
           </td>
           
           <td class="code">
-            <pre class="bash" style="font-family:monospace;"><span style="color: #c20cb9; font-weight: bold;">dpkg</span> <span style="color: #660033;">-i</span> <span style="color: #7a0874; font-weight: bold;">&#40;</span>package name<span style="color: #7a0874; font-weight: bold;">&#41;</span>.deb</pre>
+            <pre class="bash" style="font-family:monospace;"><span style="color: #c20cb9; font-weight: bold;">dpkg</span> <span style="color: #660033;">-i</span> <span style="color: #7a0874; font-weight: bold;">(</span>package name<span style="color: #7a0874; font-weight: bold;">)</span>.deb</pre>
           </td>
         </tr>
       </table>
