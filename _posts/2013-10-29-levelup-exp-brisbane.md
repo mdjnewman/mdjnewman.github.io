@@ -22,7 +22,7 @@ Ben Melbourne ([@benmelb][2]) set out to teach us about design thinking, and how
 
 ## Functional Programming for Fun and Profit
 
-Next up was James Ottoway ([@jms_][3]) with a good intro to functional programming. He started out by explaining declarative languages and reactive programming, as well as DSLs and closures and how they can be used to cut complexity.
+Next up was James Ottoway ([@jms\_][3]) with a good intro to functional programming. He started out by explaining declarative languages and reactive programming, as well as DSLs and closures and how they can be used to cut complexity.
 
 Declarative languages focus on expressing the logic of a computation, not how to carry out that computation. Regular expressions, Chef/Puppet configuration files, and SQL were all used as examples of declarative languages. In James’s words:
 
@@ -36,23 +36,22 @@ As someone who’s trying to learn Haskell at the moment, this section about of 
 
 ## Business Analysis
 
-<span style="line-height: 1.5;">After lunch we heard about the life of a BA from Cathie Hagen (<a title="Cathie Hagen (catherist) on Twitter" href="https://twitter.com/catherist">@catherist</a>) and Jiangmei Kang. BAs are an integral part of every stage of a project, and use their place as a bridge between the client and the developers to ensure that value is delivered to the client. The following is a photo I took of the board used to explain the many aspects of work as a BA, I think it says more than I can:</span>
+After lunch we heard about the life of a BA from Cathie Hagen ([@catherist][17]) and Jiangmei Kang. BAs are an integral part of every stage of a project, and use their place as a bridge between the client and the developers to ensure that value is delivered to the client. The following is a photo I took of the board used to explain the many aspects of work as a BA, I think it says more than I can:
 
-<p style="text-align: center;">
-  <a href="http://mdjnewman.me/wp-content/uploads/2013/10/TW-LevelUp-–-Business-Analysis.jpg"><img class=" wp-image-223 aligncenter" alt="TW LevelUp – Business Analysis" src="http://mdjnewman.me/wp-content/uploads/2013/10/TW-LevelUp-–-Business-Analysis.jpg" width="2222" height="2479" /></a>
-</p>
 
-(Sorry about the poor quality – the projector turned on for the next talk just as I was taking this picture)
+{% include figure.html src="/public/images/2013/10/TW-LevelUp-Business-Analysis.jpg" alt="TW LevelUp - Business Analysis" caption='(Sorry about the poor quality – the projector turned on for the next talk just as I was taking this picture)' %}
 
 ## User Testing
 
 > Why build something that people don’t want to use? It’s 2013, doing that is a waste of humanities potential.
 
-<span style="line-height: 1.5;">Pete Chemsripong gave a great talk about the importance of user testing. Speed is important for user testing and ideally should be a daily thing. Every feature that you’re working on in a project should be validated by a user (this agrees with what Ben said in the design talk).<br /> </span>
+Pete Chemsripong gave a great talk about the importance of user testing. Speed is important for user testing and ideally
+should be a daily thing. Every feature that you’re working on in a project should be validated by a user (this agrees
+with what Ben said in the design talk).<br /> 
 
-## <span style="font-family: Bitter, Georgia, serif; font-size: 30px; line-height: 1.3;">Helping you get your first job</span>
+## Helping you get your first job
 
-The last presentation before the keynote was by Jean D’amore ([@jeandamore][5]) with an entertaining on how to land your first job in IT. The talk introduced job hunting as a game where you can’t control everything, but what you can control can make all the difference. He split the journey into seven steps, each accompanied by a great movie reference & quote. Hopefully the slides will be made available as I didn’t get everything down, but what follows is my summary:
+The last presentation before the keynote was by Jean D’amore ([@jeandamore][5]) with an entertaining talk on how to land your first job in IT. The talk introduced job hunting as a game where you can’t control everything, but what you can control can make all the difference. He split the journey into seven steps, each accompanied by a great movie reference & quote. Hopefully the slides will be made available as I didn’t get everything down, but what follows is my summary:
 
   1. Yourself (The Last Samurai) 
       * Improve the environment by working on yourself.
@@ -63,8 +62,8 @@ The last presentation before the keynote was by Jean D’amore ([@jeandamore][5]
       * Do: know what you seek, choose a domain, know the employer, ask about graduate programs/training, keep your LinkedIn (and internet presence in general) up to date, favour simple job ads (i.e. not ads that list every skill under then sun – you often need to be a specialist before you can generalise)
       * Don’t: dismiss too quickly, use recruitment agencies, work on projects you don’t agree with (everything you do has an impact and will impact you), waste too much time searching on-line (do spend more time talking to people)
   3. Your CV (The Colour of Money) 
-      * <span style="line-height: 1.5;">Do: PDF it!, make it unique, know what’s on it, web design it (use web design principles – e.g. readability, don’t cram everything in), make it one page, get friends to read it, start with skills over education</span>
-      * Don’t: lie/exaggerate, rush it, use ‘[bullshit bingo][6]‘ words (except in a few cases where it’s in the ad – in this case, always explain and give examples)
+      * Do: PDF it!, make it unique, know what’s on it, web design it (use web design principles – e.g. readability, don’t cram everything in), make it one page, get friends to read it, start with skills over education
+      * Don’t: lie/exaggerate, rush it, use ‘[bullshit bingo][6]’ words (except in a few cases where it’s in the ad – in this case, always explain and give examples)
   4. Applying (Close Encounters of the Third Kind) 
       * You need to understand and be understood
       * Do: strike with precision, add a cover letter, apply to people (not computers), customise your CV, wait, follow-up, be organised
@@ -126,3 +125,4 @@ Thanks again to ThoughtWorks for running this mini-conference – you’ve done 
  [14]: http://www.rivercitylabs.net/ "River City Labs"
  [15]: https://twitter.com/TW_LevelUp "LevelUp on Twitter"
  [16]: https://www.facebook.com/ThoughtworksLevelUp "ThoughtWorks Level Up"
+ [17]: https://twitter.com/catherist "Cathie Hagen (catherist) on Twitter"
