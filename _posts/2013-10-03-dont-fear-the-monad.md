@@ -8,7 +8,8 @@ dsq_thread_id:
 categories:
   - Functional programming
 ---
-<span style="line-height: 1.5;">I recently watched Brian Beckman’s </span><a style="line-height: 1.5;" title="Brian Beckman: Don't fear the Monad" href="http://channel9.msdn.com/shows/Going+Deep/Brian-Beckman-Dont-fear-the-Monads/">Don’t fear the Monad</a><span style="line-height: 1.5;"> talk (YouTube version <a title="Brian Beckman: Don't fear the Monad (YouTube)" href="http://www.youtube.com/watch?v=ZhuHCtR3xq8">here</a>) and thought it was a really good explanation of functions, monoids & monads and why they’re a useful way to master complexity.</span>
+
+I recently watched Brian Beckman’s [Don't fear the monad](http://channel9.msdn.com/shows/Going+Deep/Brian-Beckman-Dont-fear-the-Monads/) talk (YouTube version [here](href="http://www.youtube.com/watch?v=ZhuHCtR3xq8)) and thought it was a really good explanation of functions, monoids & monads and why they’re a useful way to master complexity.
 
 I recommend it to anyone who’s starting to look at functional programming. Here are some of the key points I took away from the talk:
 
@@ -18,16 +19,16 @@ I recommend it to anyone who’s starting to look at functional programming. Her
   * Functional programming is a style that can be used in almost any language 
       * But some languages make it easier than others
       * First class functions (or at least lamdbas) are a must have
-  * <span style="line-height: 1.5;">Complexity is killing software developers – we need to control it</span> 
-      * <span style="line-height: 1.5;">The best way to control complexity is to put functions into groups where things are disciplined, and where they can be composed in arbitrary ways</span>
+  * Complexity is killing software developers – we need to control it 
+      * The best way to control complexity is to put functions into groups where things are disciplined, and where they can be composed in arbitrary ways
       * Build complexity out of simplicity by composing things
   * A monad adds some data to a value, and the implementation of the bind operator defines how that data interacts
-  * <span style="line-height: 1.5;">If you want to add a feature, you shouldn’t even have to know what you’re going to interact with</span> 
+  * If you want to add a feature, you shouldn’t even have to know what you’re going to interact with 
       * Using monads means the interaction is already built into the structure
-  * You don’t need to know what a monad does 
-      * <span style="line-height: 1.5;">So long as it follows the rules, it can have arbitrary side effects</span>
+  * You don’t need to know what a monad does
+      * So long as it follows the rules, it can have arbitrary side effects
 
-Another interesting part was Brian’s reasoning about why functional programming is a ‘hard sell':
+Another interesting part was Brian’s reasoning about why functional programming is a ‘hard sell’:
 
 > Immediately upon the foundation of computing, the world split into two camps – the bottom up camp and the top down camp.
 > 

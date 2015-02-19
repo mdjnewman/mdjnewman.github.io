@@ -5,8 +5,8 @@ layout: post
 permalink: /2013/10/kevlin-henney-a-common-fallacy/
 categories:
   - Uncategorized
-format: quote
 ---
+
 > A common fallacy is to assume authors of incomprehensible code will somehow be able to express themselves lucidly and clearly in comments.
 
 [Kevlin Henney][1] (original tweet [here][2]).

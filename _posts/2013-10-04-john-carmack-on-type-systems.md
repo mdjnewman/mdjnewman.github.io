@@ -5,9 +5,9 @@ layout: post
 permalink: /2013/10/john-carmack-on-type-systems/
 categories:
   - Uncategorized
-format: quote
 ---
-> <span style="line-height: 1.5;">It’s just amazing how many mistakes [are made] and how bad programmers can be. Everything that is syntactically legal, that the compiler will accept, will eventually wind up in your code base . And that is why I think static typing is so valuable.</span>
+
+> It’s just amazing how many mistakes [are made] and how bad programmers can be. Everything that is syntactically legal, that the compiler will accept, will eventually wind up in your code base. And that is why I think static typing is so valuable.
 
 [John Carmack][1] (full talk [here][2] – note this link jumps to this quote – part one of the keynote is [here][3]).
 
