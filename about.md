@@ -9,7 +9,7 @@ To get in touch, use any of the methods on the [contact me][1] page.
 
 ## Interests
 
-As I have an interest in networking and information security, I chose Information Security ([COMS3000][2]), Computer Networks I ([COMS3200][3]), Advanced Computer and Network Security ([COMS4507][4]) and Computer Networks II ([COMS4200][5]) as during my degree at UQ. In order to learn different algorithm paradigms (such as divide & conquer, greedy algorithms and dynamic programming) and to learn more about graph data structures and related algorithms, I undertook Advanced Algorithms & Data Structures ([COMP4500](https://www.uq.edu.au/study/course.html?course_code=COMP4500&offer=53544c554332494e&year=2012)) for my final fourth year elective. A full list of the courses I’ve studied is on [my LinkedIn profile](http://au.linkedin.com/in/mdjnewman/).
+As I have an interest in networking and information security, I chose Information Security ([COMS3000][2]), Computer Networks I ([COMS3200][3]), Advanced Computer and Network Security ([COMS4507][4]) and Computer Networks II ([COMS4200][5]) as electives during my degree at UQ. In order to learn different algorithm paradigms (such as divide & conquer, greedy algorithms and dynamic programming) and to learn more about graph data structures and related algorithms, I undertook Advanced Algorithms & Data Structures ([COMP4500][7]) for my final fourth year elective. A full list of the courses I’ve studied is on [my LinkedIn profile](http://au.linkedin.com/in/mdjnewman/).
 
 I’m also interested in the design of scalable and distributed systems, and enjoy reading case studies from companies that deal with large amounts of traffic such as Amazon & Google.
 
@@ -41,3 +41,4 @@ Some projects I’ve worked on are listed on my [Careers 2.0 profile][6].
  [4]: https://www.uq.edu.au/study/course.html?course_code=COMS4507&offer=53544c554331494e&year=2013 "COMS4507"
  [5]: http://www.uq.edu.au/study/course.html?course_code=COMS4200&offer=53544c554332494e&year=2013 "COMS4200"
  [6]: http://careers.stackoverflow.com/mdjnewman
+ [7]: https://www.uq.edu.au/study/course.html?course_code=COMP4500&offer=53544c554332494e&year=2012
