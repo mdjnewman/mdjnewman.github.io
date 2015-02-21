@@ -35,7 +35,7 @@ The following is a list of the languages, tools and frameworks that I have some 
 
 Some projects I’ve worked on are listed on my [Careers 2.0 profile][6].
 
- [1]: http://mdjnewman.me/contact-me/ "Contact me"
+ [1]: /contact-me/ "Contact me"
  [2]: http://www.uq.edu.au/study/course.html?course_code=COMS3000&offer=53544c554332494e&year=2012 "COMS3000"
  [3]: http://www.uq.edu.au/study/course.html?course_code=COMS3200&offer=53544c554332494e&year=2011 "COMS3200"
  [4]: https://www.uq.edu.au/study/course.html?course_code=COMS4507&offer=53544c554331494e&year=2013 "COMS4507"

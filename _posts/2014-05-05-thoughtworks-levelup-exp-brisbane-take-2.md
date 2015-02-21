@@ -146,4 +146,4 @@ The second LevelUp EXP event in Brisbane was eye-opening, and I think the attend
  [20]: http://www.thoughtworks.com/clients/woolworths "Woolworths | ThoughtWorks"
  [21]: http://www.joelonsoftware.com/articles/UsabilityTestingwithMorae.html "Usability Testing with Morae by Joel Spolsky"
  [22]: http://arialdomartini.wordpress.com/2012/07/20/you-wont-believe-how-old-tdd-is/ "You won’t believe how old TDD is"
- [23]: http://mdjnewman.me/2013/10/levelup-exp-brisbane/ "ThoughtWorks LevelUp EXP Brisbane"
+ [23]: /2013/10/levelup-exp-brisbane/ "ThoughtWorks LevelUp EXP Brisbane"
