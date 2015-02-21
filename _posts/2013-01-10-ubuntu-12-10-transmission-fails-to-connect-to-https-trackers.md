@@ -17,20 +17,11 @@ The steps there are pretty simple and worked well for me:
 
   1. <span style="line-height: 15px;">Close Transmission</span>
   2. Download the .deb for updated libgnutls26 from [here][3] (bottom of page – choose your architecture then mirror)
-  3. Install using <div class="wp_syntax">
-      <table>
-        <tr>
-          <td class="line_numbers">
-            <pre>1
-</pre>
-          </td>
-          
-          <td class="code">
-            <pre class="bash" style="font-family:monospace;"><span style="color: #c20cb9; font-weight: bold;">dpkg</span> <span style="color: #660033;">-i</span> <span style="color: #7a0874; font-weight: bold;">(</span>package name<span style="color: #7a0874; font-weight: bold;">)</span>.deb</pre>
-          </td>
-        </tr>
-      </table>
-    </div>
+  3. Install using
+
+{% highlight bash %}
+dpkg -i (package name).deb
+{% endhighlight %}
 
   4. Restart Transmission
 
@@ -38,22 +29,11 @@ The steps there are pretty simple and worked well for me:
 
 UPDATE: It looks like this is now fixed, so running
 
-<div class="wp_syntax">
-  <table>
-    <tr>
-      <td class="line_numbers">
-        <pre>1
-2
-</pre>
-      </td>
-      
-      <td class="code">
-        <pre class="bash" style="font-family:monospace;"><span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">apt-get update</span>
-<span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">apt-get upgrade</span></pre>
-      </td>
-    </tr>
-  </table>
-</div>
+
+{% highlight bash %}
+sudo apt-get update
+sudo apt-get upgrade
+{% endhighlight %}
 
 should get it working again for you.
 
