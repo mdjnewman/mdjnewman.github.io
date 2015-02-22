@@ -15,7 +15,7 @@ After Transmission failed to connect to a tracker using HTTPS, I went searching 
 
 The steps there are pretty simple and worked well for me:
 
-  1. <span style="line-height: 15px;">Close Transmission</span>
+  1. Close Transmission
   2. Download the .deb for updated libgnutls26 from [here][3] (bottom of page – choose your architecture then mirror)
   3. Install using
 

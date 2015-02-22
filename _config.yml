@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               Matt Newman
 tagline:             ''
-description:         ''
+description:         'Personal website & blog for a developer living in Brisbane, Australia.'
 baseurl:             /
 paginate:            5
 
