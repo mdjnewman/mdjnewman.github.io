@@ -19,3 +19,6 @@ paginate:            5
 author:
   name:              Matt Newman
   url:               http://mdjnewman.me
+
+# Excludes
+exclude: [".editorconfig", ".gitignore", "CNAME", "Gemfile", "Gemfile.lock", "README.md"]
