@@ -3,7 +3,7 @@ title: About
 author: mdjnewman
 layout: page
 ---
-My name is Matt Newman, I’m an Engineering (Software) & Commerce (Finance) student at University of Queensland (UQ) in Brisbane, Queensland, Australia. I’ll be graduating in July 2014.
+My name is Matt Newman, I’m a software developer currently employed by ThoughtWorks Australia. In July 2014 I graduated with a dual Bachelor of Engineering (Software) (Hons I) & Commerce (Finance) from The University of Queensland (UQ), Brisbane, Australia.
 
 To get in touch, use any of the methods on the [contact me][1] page.
 
