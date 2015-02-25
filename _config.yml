@@ -21,4 +21,4 @@ author:
   url:               http://mdjnewman.me
 
 exclude: [".editorconfig", ".gitignore", "CNAME", "Gemfile", "Gemfile.lock", "README.md"]
-include: [".well-known/keybase.txt"]
+include: [".well-known"]
