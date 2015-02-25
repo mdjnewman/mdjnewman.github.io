@@ -22,3 +22,7 @@ author:
 
 exclude: [".editorconfig", ".gitignore", "CNAME", "Gemfile", "Gemfile.lock", "README.md"]
 include: [".well-known"]
+
+gems:
+  - jekyll-sitemap
+
