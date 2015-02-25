@@ -1,0 +1,79 @@
+==================================================================
+https://keybase.io/mdjnewman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mdjnewman.me
+  * I am mdjnewman (https://keybase.io/mdjnewman) on keybase.
+  * I have a public key with fingerprint 49CA B99E F812 795A 8BB8  0D6F EAE6 4120 AD25 FA05
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "49cab99ef812795a8bb80d6feae64120ad25fa05",
+            "host": "keybase.io",
+            "key_id": "eae64120ad25fa05",
+            "kid": "0101ceb6b22c04b1bc2862b93d219a8a6d10acdcbf1bae3933502da374f043429c470a",
+            "uid": "f569587881ee96615ed4c8bfaa9b3000",
+            "username": "mdjnewman"
+        },
+        "revoke": {
+            "sig_ids": [
+                "8b1598a1f8af42f396f6d7c30b0d5203f2c45c4e8e7e76d35c462e46429de6ea0f"
+            ]
+        },
+        "service": {
+            "hostname": "mdjnewman.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1424856372,
+    "expire_in": 157680000,
+    "prev": "9e67dd1d47082a31da216268b52085488fa490be6abafd95c9e51c3a2c102980",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.4
+Comment: https://keybase.io/crypto
+
+yMN4AnicbZJrTBRXFMcXrYpLyOIj0WIsZSxiw4Izdx47s211aaFtKLJGStDy2NyZ
+ewdmcWdxd9kVEUNMkKCofCkUxVhpRVMsNYhNurjVhZbQ8jD0AYgWDGALtmKqEVqD
+aWdJ+6Xpp3vvOf/7O+f87/0qcqlOHxbY90NlnjQyEtYbPFOie/fB+0wZITpRKWEu
+I4rw4iIragF2FbsU1UOYCUaQoCgIWOYpYBJYyIsiTyJOxhBzDAVIiAArQ5IljESh
+0x26oWFE6MZJilOLaQebgrTo/+iLFhMkRVISFjkRAIlkREqUAM8BUaARoATIQw5R
+JJSQJMqUCDEt0DRLAgRpEyOTDM0AQWJMJNRwJYs4meUEljfxPIWxwHEUixEj8aIM
+oSDSJEmGhG7sUqEDa2oHsqvY54AqUW4kXNjrLMIhC9xKgda1mzDnELxIsQIPKZmH
+MgNkWuBkDpkkmhRJxAKSloHEsBKDeWzCJg7R2p4DmOG0xhDmMCRlIk9jayW9irQI
+D9n03/JJ2tFIFLucHqfk3KtlCj2eYnOoKU9pcUjpw6LtH4ZNVFSkvZF2wYtdbsWp
+EmZKU0oeJQSlGMDwLEebgJHA+4sVF7YpIQVr4nhtfjJUBns1pIA5E0IU0uzjAaQp
+BAHFAY4XtbF4luF5GTICKWIOilBGAisJmKUkGgKJIoHAh5x0432qkzCzWpuwQENq
+vqnQU+LCRHlnMPc5XZhet3zZktAv0+lXRv3791KeGf6y5mbF65bczjwbiG9uOTZ3
+yx/bv+X0L/7kfmPaye6Ge93n0gc+tMe2vRbMCpbu2ITogZ/W7T5eh7JxXvMR88gT
+O4zPjY/Rb7McjGheFdb43lBmeHRC4HxpytjG+xhMN32W+cV3m8omuM/3/9a+qhW8
+7PE1jd5ZudpOiY+yusYuO0eunUk4+Vbd+jWNtT/valj/+FOywh+cPF2bWDHVFZk/
+nVMTiDNE7AxW6l15f/66drqnKu6eIdlvNXRlZk9UXrW+4Q/kP/KNXRlutLOvG1q4
+jUeiGl74I7vKcMB7/XBy6veOzu7I6ZmHbUl1YDozbXPE0dKPnqhPC3jq6Gbj3bkt
+iaP1lq/jdBFRjauLJ7KCw8cHq690KjGpfWzzVFfV2bmhrMsLF49d6vi23v7NVlua
+dcAb+VLf9aSUi22mGd3g3MjhioJ3Epjt4RfQ8+PD9J5bHecae6c2HJoM2N+cLXul
+er79R5QeHcjL2DG6oXDhhG9w6FDsRO2L9SuSP7EsjW9V407lfKlu7e59Nf1ux0xQ
+vhH3YG943/Iex56bdyYvtB+oWTFr9avjNTdqyz4YF5pGE4s6rKOdb8fs4hr6z38c
+dT812VPXnLH7cT79zHVtZ8/TWcvah5abvoXfKy1rLtkOdrbU26/WzENdudNUjQI9
+xmX6otzb0Y51GfOt0ZaaFOUUGtq2/W/pC8gS
+=JG6Y
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mdjnewman
+
+==================================================================
