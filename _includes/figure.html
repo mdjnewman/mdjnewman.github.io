@@ -1,6 +1,7 @@
+{% capture full_url %}{{ site.baseurl }}{{ include.src }}{% endcapture %}
 <figure>
-    <a href="{{ include.src }}">
-        <img src="{{ include.src }}" alt="{% if include.alt == blank %}{{ include.caption }}{% else %}{{ include.alt }}{% endif %}">
+    <a href="{{ full_url }}">
+        <img src="{{ full_url }}" alt="{% if include.alt == blank %}{{ include.caption }}{% else %}{{ include.alt }}{% endif %}">
     </a>
 <figcaption>
     {{ include.caption }}

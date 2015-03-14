@@ -12,7 +12,7 @@ relative_permalinks: true
 title:               Matt Newman
 tagline:             ''
 description:         'Personal website & blog for a developer living in Brisbane, Australia.'
-baseurl:             /
+baseurl:             ''
 paginate:            5
 
 # About/contact
