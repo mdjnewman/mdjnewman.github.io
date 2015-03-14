@@ -15,28 +15,25 @@ After Transmission failed to connect to a tracker using HTTPS, I went searching 
 
 The steps there are pretty simple and worked well for me:
 
-  1. Close Transmission
-  2. Download the .deb for updated libgnutls26 from [here][3] (bottom of page – choose your architecture then mirror)
-  3. Install using
+1. Close Transmission
+2. Download the .deb for updated libgnutls26 from [here][3] (bottom of page – choose your architecture then mirror)
+3. Install using
 
-{% highlight bash %}
-dpkg -i (package name).deb
-{% endhighlight %}
+        dpkg -i (package name).deb
 
-  4. Restart Transmission
+4. Restart Transmission
 
 * * *
 
 UPDATE: It looks like this is now fixed, so running
 
-
-{% highlight bash %}
+```
 sudo apt-get update
 sudo apt-get upgrade
-{% endhighlight %}
+```
 
 should get it working again for you.
 
- [1]: http://www.transmissionbt.com/ "Transmission"
- [2]: https://bugs.launchpad.net/ubuntu/+source/gnutls26/+bug/937537 "libgnutls26 2.12.14 breaks SSL tracker support in Transmission"
- [3]: http://packages.debian.org/wheezy/libgnutls26
+[1]: http://www.transmissionbt.com/ "Transmission"
+[2]: https://bugs.launchpad.net/ubuntu/+source/gnutls26/+bug/937537 "libgnutls26 2.12.14 breaks SSL tracker support in Transmission"
+[3]: http://packages.debian.org/wheezy/libgnutls26
