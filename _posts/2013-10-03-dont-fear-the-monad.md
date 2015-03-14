@@ -3,8 +3,6 @@ title: 'Don’t fear the Monad'
 author: mdjnewman
 layout: post
 permalink: /2013/10/dont-fear-the-monad/
-dsq_thread_id:
-  - 3471703437
 categories:
   - Functional programming
 ---
