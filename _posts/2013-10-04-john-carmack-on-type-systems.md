@@ -1,6 +1,5 @@
 ---
 title: John Carmack on type systems
-author: mdjnewman
 layout: post
 categories:
   - Uncategorized

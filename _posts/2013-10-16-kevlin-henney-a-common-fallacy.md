@@ -1,6 +1,5 @@
 ---
 title: Kevlin Henney on code comments
-author: mdjnewman
 layout: post
 categories:
   - Uncategorized

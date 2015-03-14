@@ -1,6 +1,5 @@
 ---
 title: Simon Peyton Jones on maintenance with strong types
-author: mdjnewman
 layout: post
 categories:
   - Uncategorized

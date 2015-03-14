@@ -1,6 +1,5 @@
 ---
 title: Why Functional Programming Matters
-author: mdjnewman
 layout: post
 categories:
   - Functional programming

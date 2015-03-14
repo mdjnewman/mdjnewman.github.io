@@ -1,6 +1,5 @@
 ---
 title: Working on Haskell code in vim
-author: mdjnewman
 layout: post
 categories:
   - Functional programming

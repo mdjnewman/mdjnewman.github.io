@@ -1,6 +1,5 @@
 ---
 title: About
-author: mdjnewman
 permalink: /about/
 layout: page
 ---

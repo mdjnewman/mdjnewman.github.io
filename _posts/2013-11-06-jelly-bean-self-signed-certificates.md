@@ -1,6 +1,5 @@
 ---
 title: Installing self signed certificates on Android (Jelly Bean)
-author: mdjnewman
 layout: post
 categories:
   - Uncategorized

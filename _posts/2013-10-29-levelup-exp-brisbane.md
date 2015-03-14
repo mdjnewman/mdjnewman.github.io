@@ -1,6 +1,5 @@
 ---
 title: ThoughtWorks LevelUp EXP Brisbane
-author: mdjnewman
 layout: post
 categories:
   - Uncategorized

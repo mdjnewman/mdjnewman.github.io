@@ -1,6 +1,5 @@
 ---
 title: 'Two-factor authentication and ‘trusted’ devices'
-author: mdjnewman
 layout: post
 categories:
   - Uncategorized

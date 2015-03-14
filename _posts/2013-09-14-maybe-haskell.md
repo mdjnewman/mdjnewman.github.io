@@ -1,6 +1,5 @@
 ---
 title: 'Maybe Haskell …'
-author: mdjnewman
 layout: post
 categories:
   - Functional programming
