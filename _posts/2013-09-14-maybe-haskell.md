@@ -2,7 +2,6 @@
 title: 'Maybe Haskell …'
 author: mdjnewman
 layout: post
-permalink: /2013/09/maybe-haskell/
 categories:
   - Functional programming
 ---

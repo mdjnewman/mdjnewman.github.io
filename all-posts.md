@@ -1,6 +1,7 @@
 ---
 title: All posts
 author: mdjnewman
+permalink: /all-posts/
 layout: page
 ---
 

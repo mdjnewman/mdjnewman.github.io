@@ -2,7 +2,6 @@
 title: 'Two-factor authentication and ‘trusted’ devices'
 author: mdjnewman
 layout: post
-permalink: /2013/10/two-factor-authentication-and-trusted-devices/
 categories:
   - Uncategorized
 ---

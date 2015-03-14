@@ -2,7 +2,6 @@
 title: Kevlin Henney on code comments
 author: mdjnewman
 layout: post
-permalink: /2013/10/kevlin-henney-a-common-fallacy/
 categories:
   - Uncategorized
 ---

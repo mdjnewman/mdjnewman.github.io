@@ -2,7 +2,6 @@
 title: 'Don’t fear the Monad'
 author: mdjnewman
 layout: post
-permalink: /2013/10/dont-fear-the-monad/
 categories:
   - Functional programming
 ---

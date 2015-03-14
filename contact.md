@@ -1,6 +1,9 @@
 ---
 title: Contact
 author: mdjnewman
+permalink: /contact-me/
+redirect_from:
+ - /contact/
 layout: page
 ---
 

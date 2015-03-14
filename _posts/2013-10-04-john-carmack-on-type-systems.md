@@ -2,7 +2,6 @@
 title: John Carmack on type systems
 author: mdjnewman
 layout: post
-permalink: /2013/10/john-carmack-on-type-systems/
 categories:
   - Uncategorized
 ---

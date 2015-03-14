@@ -2,7 +2,6 @@
 title: VirtualBox + Dell laptop VT-x issues
 author: mdjnewman
 layout: post
-permalink: /2013/08/virtualbox-dell-laptop-vt-x-issues/
 categories:
   - Uncategorized
 tags:

@@ -2,7 +2,6 @@
 title: 'Ubuntu 12.10 – Transmission fails to connect to HTTPS trackers'
 author: mdjnewman
 layout: post
-permalink: /2013/01/ubuntu-12-10-transmission-fails-to-connect-to-https-trackers/
 categories:
   - Uncategorized
 tags:

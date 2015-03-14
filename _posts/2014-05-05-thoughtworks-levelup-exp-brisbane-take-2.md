@@ -2,7 +2,6 @@
 title: 'ThoughtWorks LevelUp EXP Brisbane – Take 2'
 author: mdjnewman
 layout: post
-permalink: /2014/05/thoughtworks-levelup-exp-brisbane-take-2/
 categories:
   - Uncategorized
 ---

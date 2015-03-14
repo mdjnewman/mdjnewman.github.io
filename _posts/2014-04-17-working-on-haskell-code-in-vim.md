@@ -2,7 +2,6 @@
 title: Working on Haskell code in vim
 author: mdjnewman
 layout: post
-permalink: /2014/04/working-on-haskell-code-in-vim/
 categories:
   - Functional programming
 tags:

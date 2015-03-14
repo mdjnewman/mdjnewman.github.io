@@ -2,7 +2,6 @@
 title: Simon Peyton Jones on maintenance with strong types
 author: mdjnewman
 layout: post
-permalink: /2014/06/simon-peyton-jones-on-maintenance-with-strong-types/
 categories:
   - Uncategorized
 ---
