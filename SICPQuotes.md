@@ -4,11 +4,19 @@ permalink: /SICPQuotes/
 layout: page
 ---
 
-A while ago I started reading Structure and Interpretation of Computer Programs by Harold Abelson & Gerald Jay Sussman. It was the most quotable programming book I've read in a while, so I started making notes and then decided to start tweeting them under [@SICPQuotes](https://twitter.com/SICPQuotes).
+A while ago I started reading Structure and Interpretation of Computer Programs
+by Harold Abelson & Gerald Jay Sussman. It was the most quotable programming
+book I've read in a while, so I started making notes and then decided to start
+tweeting them under [@SICPQuotes](https://twitter.com/SICPQuotes).
 
-Some editions of the book are freely available (I've been reading from [http://sarabander.github.io/sicp/](http://sarabander.github.io/sicp/)) or if you prefer to have something to hold you can purchase from [Amazon](http://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262510871).
+Some editions of the book are freely available (I've been reading from
+[http://sarabander.github.io/sicp/](http://sarabander.github.io/sicp/)) or if
+you prefer to have something to hold you can purchase from
+[Amazon](http://www.amazon.com/Structure-Interpretation-Computer-Programs-Engineering/dp/0262510871).
 
-Below are the quotes I've tweeted so far (though I don't update this page regularly).
+Below are the full excerpts for the tweets so far, as the tweets are often
+heavily abbreviated. I don't update this page regularly though, so expect a bit
+of a delay between the tweet and the full excerpt appearing.
 
 * To appreciate programming as an intellectual activity in its own right you must turn to computer programming; you must read and write computer programs — many of them.
 * The programmer must seek both perfection of part and adequacy of collection.
@@ -75,3 +83,6 @@ Below are the quotes I've tweeted so far (though I don't update this page regula
 * What we need is a means for modularizing the system design even further. This is provided by the programming technique known as data-directed programming.
 * One strategy is to decompose the table into columns and, instead of using "intelligent operations" that dispatch on data types, to work with "intelligent data objects" that dispatch on operation names.
 * This style of programming is called message passing. The name comes from the image that a data object is an entity that receives the requested operation name as a "message."
+* Often the different data types are not completely independent, and there may be ways by which objects of one type may be viewed as being of another type. This process is called coercion.
+* If the data types in our system can be naturally arranged in a tower, this greatly simplifies the problems of dealing with generic operations on different types, as we have seen. Unfortunately, this is usually not the case.
+* The main difference between the confusion that existed ten years ago and the confusion that exists now is that now a variety of inadequate ontological theories have been embodied in a plethora of correspondingly inadequate programming languages.
