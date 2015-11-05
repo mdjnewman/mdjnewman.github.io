@@ -213,3 +213,21 @@ of a delay between the tweet and the full excerpt appearing.
   our perception of the system to be modelled.
 * Both the object-based approach and the stream-processing approach raise
   significant linguistic issues in programming.
+* With objects, we must be concerned with how a computational object can change
+  and yet maintain its identity.
+* The difficulties of dealing with objects, change, and identity are a
+  fundamental consequence of the need to grapple with time in our computational
+  models.
+* The stream approach can be most fully exploited when we decouple simulated
+  time in our model from the order of the events that take place in the
+  computer during evaluation. We will accomplish this using a technique known as
+  delayed evaluation.
+* An object is said to "have state" if its behavior is influenced by its
+  history.
+* We can characterize an object's state by one or more state variables, which
+  among them maintain enough information about history to determine the
+  object's current behavior.
+* The view that a system is composed of separate objects is most useful when
+  the state variables of the system can be grouped into closely coupled
+  subsystems that are only loosely coupled to other subsystems.i
+
