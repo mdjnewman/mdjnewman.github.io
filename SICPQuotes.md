@@ -230,4 +230,18 @@ of a delay between the tweet and the full excerpt appearing.
 * The view that a system is composed of separate objects is most useful when
   the state variables of the system can be grouped into closely coupled
   subsystems that are only loosely coupled to other subsystems.i
+* For such a model to be modular, it should be decomposed into computational
+  objects that model the actual objects in the system.
+* If we wish to model state variables by ordinary symbolic names in the
+  programming language, then the language must provide an assignment operator
+  to enable us to change the value associated with a name.
+* Observe that the expression `(withdraw 25)`, evaluated twice, yields
+  different values. This is a new kind of behavior for a procedure. Until now,
+  all our procedures could be viewed as specifications for computing mathematical
+  functions.
+* Encapsulation reflects the general system-design principle known as the
+  hiding principle: One can make a system more modular and robust by protecting
+  parts of the system from each other.
+* The trouble is that, as soon as we introduce assignment into our language,
+  substitution is no longer an adequate model of procedure application.
 
