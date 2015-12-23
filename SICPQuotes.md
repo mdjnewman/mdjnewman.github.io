@@ -244,4 +244,51 @@ of a delay between the tweet and the full excerpt appearing.
   parts of the system from each other.
 * The trouble is that, as soon as we introduce assignment into our language,
   substitution is no longer an adequate model of procedure application.
+* As we shall see, introducing assignment into our programming language leads
+  us into a thicket of difficult conceptual issues. Nevertheless, viewing
+  systems as collections of objects with local state is a powerful technique for
+  maintaining a modular design.
+* The phenomenon illustrated by the Monte Carlo example is this: From the point
+  of view of one part of a complex process, the other parts appear to change
+  with time. They have hidden time-varying local state.
+* It is tempting to conclude this discussion by saying that, by introducing
+  assignment and the technique of hiding state in local variables, we are able
+  to structure systems in a more modular fashion than if all state had to be
+  manipulated explicitly, by passing additional parameters. Unfortunately, as we
+  shall see, the story is not so simple.
+* No simple model with "nice" mathematical properties can be an adequate
+  framework for dealing with objects and assignment in programming languages.
+* Programming without any use of assignments, as we did throughout the first
+  two chapters of this book, is accordingly known as functional programming.
+* But as soon as we introduce `set!` and the idea that the value of a variable
+  can change, a variable can no longer be simply a name.
+* As soon as we introduce change into our computational models, many notions
+  that were previously straightforward become problematical.
+* A language that supports the concept that "equals can be substituted for
+  equals" in an expresssion without changing the value of the expression is
+  said to be referentially transparent.
+* Once we forgo referential transparency, the notion of what it means for
+  computational objects to be "the same" becomes difficult to capture in a
+  formal way.
+* Indeed, the meaning of "same" in the real world that our programs model is
+  hardly clear in itself.
+* The phenomenon of a single computational object being accessed by more than
+  one name is known as aliasing.
+* Bugs can occur in our programs if we forget that a change to an object may
+  also, as a "side effect," change a "different" object because the two
+  "different" objects are actually a single object appearing under different
+  aliases.
+* In general, so long as we never modify data objects, we can regard a compound
+  data object to be precisely the totality of its pieces.
+* In contrast to functional programming, programming that makes extensive use
+  of assignment is known as imperative programming.
+* Programs written in imperative style are susceptible to bugs that cannot
+  occur in functional programs.
+* In view of this, it is ironic that introductory programming is most often
+  taught in a highly imperative style.
+* Whatever the reason, it often saddles beginning programmers with "should I
+  set this variable before or after that one" concerns that can complicate
+  programming and obscure the important ideas.
+* The complexity of imperative programs becomes even worse if we consider
+  applications in which several processes execute concurrently.
 
