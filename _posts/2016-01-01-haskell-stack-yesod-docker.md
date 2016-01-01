@@ -118,8 +118,8 @@ for building the whole of Stackage, whereas stack-run is more trimmed down.
 
 Running `stack build` kicked off the build in the Docker container, which
 completed successfully as all required dependencies (e.g. libpq and pg_config)
-were already in the image. Thanks to FPComplete for setting up these Docker
-containers for everyone to use!
+were already in the image. Thanks to [FP Complete](https://www.fpcomplete.com/)
+for setting up these Docker containers for everyone to use!
 
 ### Packaging Docker image
 
