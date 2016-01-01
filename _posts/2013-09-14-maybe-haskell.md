@@ -1,9 +1,8 @@
 ---
 title: 'Maybe Haskell …'
 layout: post
-categories:
-  - Functional programming
 ---
+
 After reading [Learn You a Haskell][1] on and off over the past fortnight and watching a couple of Erik Meijer’s [Functional Programming Fundamentals][2],
 I finally got around to installing the Haskell platform and firing up GHCi.
 

@@ -1,9 +1,8 @@
 ---
 title: ThoughtWorks LevelUp EXP Brisbane
 layout: post
-categories:
-  - Uncategorized
 ---
+
 On Saturday I was lucky enough to attend [ThoughtWorks LevelUp EXP][1] at the ThoughtWorks Brisbane office.
 
 As well as plenty of opportunities to chat with the ThoughtWorkers (and Chad!) who kindly gave up their Saturday, there were six presentations throughout the day:

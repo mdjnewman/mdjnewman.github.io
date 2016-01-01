@@ -1,12 +1,8 @@
 ---
 title: 'Ubuntu 12.10 – Transmission fails to connect to HTTPS trackers'
 layout: post
-categories:
-  - Uncategorized
-tags:
-  - how-to
-  - ubuntu
 ---
+
 [Transmission][1], the BitTorrent client installed by default in Ubuntu seems to have an issue with connecting to trackers using HTTPS at the moment.
 
 After Transmission failed to connect to a tracker using HTTPS, I went searching and found this [bug report][2].

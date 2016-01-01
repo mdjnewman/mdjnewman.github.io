@@ -1,8 +1,6 @@
 ---
 title: Haskell stack, Yesod and Docker
 layout: post
-categories:
-  - Uncategorized
 ---
 
 ## The why
@@ -203,7 +201,7 @@ the values provided by Docker (see
 
 ## The results
 
-I'm very happy with the Yesod workflow, and the stack Docker integration makes
+I'm very happy with the Yesod workflow, and stack's Docker integration makes
 deploying a lot easier as I don't have to worry about what packages are in my
 build and test environments. Seems like a good compromise between manually
 copying files around and having a full CD pipeline.

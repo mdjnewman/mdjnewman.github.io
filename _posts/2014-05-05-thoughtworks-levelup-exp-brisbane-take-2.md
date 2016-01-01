@@ -1,9 +1,8 @@
 ---
 title: 'ThoughtWorks LevelUp EXP Brisbane – Take 2'
 layout: post
-categories:
-  - Uncategorized
 ---
+
 {% include figure.html src="/public/images/2014/05/ThoughtWorks-LevelUp-EXP-Brisbane-May-2014.jpg" caption="LevelUp EXP Brisbane Attendees (thanks Alexandra Tran for the photo!)" %}
 
 ThoughtWorks ran another great express [LevelUp][2] event on Saturday at their Brisbane office. LevelUp events aim to help students bridge the gap between university and their first full-time job. LevelUp EXP is a mini-conference with a number of talks and hands on sessions, as well as lots of opportunities to mingle with the ThoughtWorks employees and other attendees. One theme that recurred through almost every talk of the day was focussing on the user at every stage of the development process – if you’re not building something that your users can use, then you’re wasting time. This does mean **users**, not customers. You can be building a product for a client, but it’s ultimately the user’s experience that will determine success.

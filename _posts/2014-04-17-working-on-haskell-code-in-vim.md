@@ -1,11 +1,8 @@
 ---
 title: Working on Haskell code in vim
 layout: post
-categories:
-  - Functional programming
-tags:
-  - how-to
 ---
+
 I decided to get a fresh vim install properly set up for some Haskell development, and went down the road of using [hdevtools][1], [vim-hdevtools][2] and [Syntastic][3]. Below are notes on some issues I encountered setting up vim-hdevtools.
 
 * * *

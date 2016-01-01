@@ -1,11 +1,8 @@
 ---
 title: Installing self signed certificates on Android (Jelly Bean)
 layout: post
-categories:
-  - Uncategorized
-tags:
-  - how-to
 ---
+
 I was pretty happy when I found out Android now supports installing self signed certificates, but had some trouble getting the certificate I use for administering this blog installed.
 
 So, a quick note for anyone who is attempting to install a self signed SSL certificate on Jelly Bean Android devices: **you can only install a root CA certificate** (i.e. a certificate with “Subject Type=CA”).

@@ -1,9 +1,8 @@
 ---
 title: 'Two-factor authentication and ‘trusted’ devices'
 layout: post
-categories:
-  - Uncategorized
 ---
+
 [This][1] is an interesting article – it’s the story of a couple who challenged a hacking team to pen-test their digital lives. To give some context to the following quote, their laptop has been compromised and user ID and password for their on-line banking account at Chase has been stolen by the ethical hacking team:
 
 > Chase.com uses a two-step verification system, which momentarily stymied SpiderLabs’ hackers. Every time she or I logs on from an IP address that Chase doesn’t recognize, it offers to send us an activation code via text to our mobile phones. But a search of Charlotte’s hard drive revealed Chase cookies, which the team copied and used to convince Chase that she was logging in from home.

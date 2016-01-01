@@ -1,8 +1,6 @@
 ---
 title: Kevlin Henney on code comments
 layout: post
-categories:
-  - Uncategorized
 ---
 
 > A common fallacy is to assume authors of incomprehensible code will somehow be able to express themselves lucidly and clearly in comments.

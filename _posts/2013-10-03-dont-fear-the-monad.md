@@ -1,8 +1,6 @@
 ---
 title: 'Don’t fear the Monad'
 layout: post
-categories:
-  - Functional programming
 ---
 
 I recently watched Brian Beckman’s [Don't fear the monad](http://channel9.msdn.com/shows/Going+Deep/Brian-Beckman-Dont-fear-the-Monads/) talk (YouTube version [here](href="http://www.youtube.com/watch?v=ZhuHCtR3xq8)) and thought it was a really good explanation of functions, monoids & monads and why they’re a useful way to master complexity.

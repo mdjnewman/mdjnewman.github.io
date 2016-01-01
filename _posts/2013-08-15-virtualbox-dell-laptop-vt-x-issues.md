@@ -1,11 +1,8 @@
 ---
 title: VirtualBox + Dell laptop VT-x issues
 layout: post
-categories:
-  - Uncategorized
-tags:
-  - how-to
 ---
+
 I recently had to use a VM for a uni project, and needed to have access on my laptop & desktop. I haven’t used a VM on my laptop in a
 while, but didn’t expect to see the following error message from VirtualBox (4.2.16):
 
