@@ -45,31 +45,33 @@ a VM or container to run the build in.
 
 ### Set up
 
-I wanted to take advantage of the Docker support in stack to run the build and
-package the application, but it isn't currently supported when using
-boot2docker (see [these](https://github.com/commercialhaskell/stack/issues/194)
-[issues](https://github.com/commercialhaskell/stack/issues/488)), so I needed
-another VM. Easy enough with Vagrant:
+stack has support for Docker to run the build and package the application, but
+it isn't currently supported when using `boot2docker` (see
+[these](https://github.com/commercialhaskell/stack/issues/194)
+[issues](https://github.com/commercialhaskell/stack/issues/488)), so I used a
+simple Vagrantfile to start up a beefy VM:
 
 ```ruby
 Vagrant.configure(2) do |config|
 
   config.vm.box = "puppetlabs/centos-6.6-64-nocm"
-  # I already had this Vagrant box on my laptop, which
-  # saved me the download time
 
   config.vm.provider "virtualbox" do |vb|
-
     vb.memory = "4096"
     vb.cpus = 8
     vb.customize ["modifyvm", :id, "--ioapic", "on"]
-
   end
+
 end
 ```
 
+Centos 6.6 might seem like an odd choice for a development environment, but the
+Vagrant box was already on my laptop, so using it saved me the download time
+(bandwidth is a precious commodity in semi-rural Australia).
+
+
 I didn't bother setting up provisioning properly, but here are the commands
-that are needed to get `stack` working:
+that are needed to get stack working:
 
 ```bash
 # Add FP Complete repo & install stack
@@ -84,7 +86,8 @@ sudo yum -y install docker-io
 # to the daemon without root, so add vagrant user to dockerroot group
 sudo gpasswd -a ${USER} dockerroot
 
-# At this point, you'll need to log out and back in for the group change to take effect
+# At this point, you'll need to log out and back in for
+# the group change to take effect
 
 # Setup iptables to allow Docker links to work
 sudo iptables -t filter -A DOCKER -d 172.17.0.0/16 -i docker0 -j ACCEPT
@@ -98,8 +101,8 @@ to handle this.
 
 ### Running the build
 
-So, we've now got stack and Docker installed. I enabled the stack Docker integration
-on the VM by modifying my `~/.stack/config` file:
+So, stack and Docker are now both installed. Enabling stack's Docker
+integration on the VM is as simple as modifying the `~/.stack/config` file:
 
 ```
 [vagrant@localhost ~]$ cat ~/.stack/config.yaml
@@ -111,7 +114,7 @@ This gives the advantage of using Docker to run the builds on the VM, while not 
 the `yesod devel` workflow on OS X.
 
 By default stack will use the fpco/stack-build repository to obtain an image to
-run the build in. This suits me, as there is also fpco/stack-run for running your
+run the build in. This suits me, as there is also fpco/stack-run for running the
 binaries once they're compiled. The build image includes everything that's necessary
 for building the whole of Stackage, whereas stack-run is more trimmed down.
 
@@ -120,7 +123,7 @@ completed successfully as all required dependencies (e.g. libpq and pg_config)
 were already in the image. Thanks to FPComplete for setting up these Docker
 containers for everyone to use!
 
-### Packaging to Docker image
+### Packaging Docker image
 
 stack's support for creating container images is a relatively recent addition,
 and currently isn't covered well in the documentation. There is a reference to the
@@ -203,11 +206,17 @@ the values provided by Docker (see
 I'm very happy with the Yesod workflow, and the stack Docker integration makes
 deploying a lot easier as I don't have to worry about what packages are in my
 build and test environments. Seems like a good compromise between manually
-copying files around and having a full CI pipeline.
+copying files around and having a full CD pipeline.
 
-Using stack with a LTS resolver and an isolated container for builds is also
-the holy grail of repeatable builds!
+Using `stack build` with a LTS resolver and an isolated container is also the
+holy grail of repeatable builds!
 
-This whole process (including writing this post) took less than a day, and I
-was learning a lot along the way. Decided where was the best place to host the site
-and waiting for Docker to pull the fpco/stack-build image took up most of the time!
+There is still a lot that would need to be done (improving security, backups,
+logging etc) before this was closer to a production environment, but it's good
+enough as a development a development region.
+
+This whole process (including writing this post) from having something that I
+wanted to deploy to being able to view the live site took less than a day,
+and I was learning a lot along the way. Deciding where was the best place to
+host the site and waiting for Docker to pull the fpco/stack-build image took up
+most of the time!
