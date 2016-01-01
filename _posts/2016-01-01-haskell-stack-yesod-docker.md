@@ -211,7 +211,7 @@ holy grail of repeatable builds!
 
 There is still a lot that would need to be done (improving security, backups,
 logging etc) before this was closer to a production environment, but it's good
-enough as a development a development region.
+enough as a development region.
 
 This whole process (including writing this post) from having something that I
 wanted to deploy to being able to view the live site took less than a day,
