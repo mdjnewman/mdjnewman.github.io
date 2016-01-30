@@ -291,4 +291,59 @@ of a delay between the tweet and the full excerpt appearing.
   programming and obscure the important ideas.
 * The complexity of imperative programs becomes even worse if we consider
   applications in which several processes execute concurrently.
-
+* An environment is a sequence of frames. Each frame is a table (possibly
+  empty) of bindings, which associate variable names with their corresponding
+  values
+* The environment is crucial to the evaluation process, because it determines
+  the context in which an expression should be evaluated.
+* Indeed, one could say that expressions in a programming language do not, in
+  themselves, have any meaning. Rather, an expression acquires a meaning only
+  with respect to some environment in which it is evaluated. Even the
+  interpretation of an expression as straightforward as `(+ 1 1)` depends on an
+  understanding that one is operating in a context in which `+` is the symbol for
+  addition.
+* The evaluation model, though abstract, provides a correct description of how
+  the interpreter evaluates expressions.
+* The environment model thus explains the two key properties that make local
+  procedure definitions a useful technique for modularizing programs: The names
+  of the local procedures do not interfere with names external to the enclosing
+  procedure, because the local procedure names will be bound in the frame that
+  the procedure creates when it is run, rather than being bound in the global
+  environment. The local procedures can access the arguments of the enclosing
+  procedure, simply by using parameter names as free variables. This is because
+  the body of the local procedure is evaluated in an environment that is
+  subordinate to the evaluation environment for the enclosing procedure.
+* Unless we have a good understanding of how our data objects are shared,
+  mutation can have unanticipated results.
+* The truth of the matter is that, in a language in which we can deal with
+  procedures as objects, there is no fundamental difference between
+  "procedures" and "data", and we can choose our syntactic sugar to allow us to
+  program in whatever style we choose.
+* Constraint propagation first appeared in the incredibly forward-looking
+  SKETCHPAD system of Ivan Sutherland (1963).
+* Nondirectionality of computation is the distinguishing feature of
+  constraint-based systems.
+* Admitting change to our language requires that a compound object must have an
+  "identity" that is something different from the pieces from which it is
+  composed.
+* We've seen the power of computational objects with local state as tools for
+  modeling. Yet this power extracts a price: the loss of referential
+  transparency, giving rise to a thicket of questions about sameness and change,
+  and the need to abandon the substitution model of evaluation in favor of the
+  more intricate environment model.
+* The central issue lurking beneath the complexity of state, sameness, and
+  change is that by introducing assignment we are forced to admit time into our
+  computational models.
+* The evaluation occurs before or after these moments. Building models in terms
+  of computational objects with local state forces us to confront time as an
+  essential concept in programming.
+* Objects in the world do not change one at a time in sequence. Rather we
+  perceive them as acting concurrently -- all at once.
+* The practice of writing programs as if they were to be executed concurrently
+  forces the programmer to avoid inessential timing constraints and thus makes
+  programs more modular.
+* Unfortunately, the complexities introduced by assignment become even more
+  problematic in the presence of concurrency.
+* The fact of concurrent execution, either because the world operates in
+  parallel or because our computers do, entails additional complexity in our
+  understanding of time.
