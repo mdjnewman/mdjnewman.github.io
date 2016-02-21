@@ -93,9 +93,8 @@ sudo iptables -t filter -A DOCKER -d 172.17.0.0/16 -i docker0 -j ACCEPT
 
 Adding the vagrant user to dockerroot comes with all the usual security issues,
 but I'm not too worried about that here. There are some other suggestions in
-the [stack documentation]
-(http://docs.haskellstack.org/en/stable/docker_integration.html#docker) for how
-to handle this.
+the [stack documentation](http://docs.haskellstack.org/en/stable/docker_integration.html#docker)
+for how to handle this.
 
 ### Running the build
 
@@ -125,10 +124,9 @@ for setting up these Docker containers for everyone to use!
 
 stack's support for creating container images is a relatively recent addition,
 and currently isn't covered well in the documentation. There is a reference to the
-`image` configuration section [here]
-(http://docs.haskellstack.org/en/stable/yaml_configuration.html#image), which
-was enough for my needs. After added the relevant bits, my `stack.yml` looks
-something like:
+`image` configuration section [here](http://docs.haskellstack.org/en/stable/yaml_configuration.html#image),
+which was enough for my needs. After added the relevant bits, my `stack.yml`
+looks something like:
 
 ```yaml
 resolver: lts-3.20

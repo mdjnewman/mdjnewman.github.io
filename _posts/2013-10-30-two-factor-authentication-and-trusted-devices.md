@@ -9,4 +9,4 @@ layout: post
 
 You could argue that if your PC has been this thoroughly compromised then you have bigger problems, but it still points out how limited some two-factor authentication systems can be if you allow devices to be remembered/trusted.
 
- [1]: http://pandodaily.com/2013/10/26/i-challenged-hackers-to-investigate-me-and-what-they-found-out-is-chilling/ "I challenged hackers to investigate me and what they found out is chilling | PandoDaily"
+[1]: http://pandodaily.com/2013/10/26/i-challenged-hackers-to-investigate-me-and-what-they-found-out-is-chilling/ 'I challenged hackers to investigate me and what they found out is chilling - PandoDaily'
