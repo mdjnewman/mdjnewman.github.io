@@ -1,6 +1,5 @@
 # Dependencies
 markdown:            kramdown
-highlighter:         rogue
 
 # Permalinks
 permalink:           /:year/:month/:title/
