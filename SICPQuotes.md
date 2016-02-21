@@ -347,3 +347,32 @@ of a delay between the tweet and the full excerpt appearing.
 * The fact of concurrent execution, either because the world operates in
   parallel or because our computers do, entails additional complexity in our
   understanding of time.
+* For example, suppose we have two processes, one with three ordered events
+  `(a,b,c)` and one with three ordered events `(x,y,z)`. If the two processes
+  run concurrently, with no constraints on how their execution is interleaved,
+  then there are 20 different possible orderings for the events that are
+  consistent with the individual orderings for the two processes.
+* Dijkstra's classic exposition (1968b) was one of the first to clearly present
+  the issues of concurrency control, and showed how to use semaphores to handle
+  a variety of concurrency problems.
+* Deadlock is always a danger in systems that provide concurrent access to
+  multiple shared resources.
+* In essence, any notion of time in concurrency control must be intimately tied
+  to communication. It is intriguing that a similar connection between time and
+  communication also arises in the Theory of Relativity, where the speed of light
+  (the fastest signal that can be used to synchronize events) is a fundamental
+  constant relating time and space.
+* We've gained a good understanding of assignment as a tool in modeling, as
+  well as an appreciation of the complex problems that assignment raises.
+* Streams can mitigate some of the complexity of modeling state.
+* Is there another approach? Can we avoid identifying time in the computer with
+  time in the modeled world? Must we make the model change with time in order
+  to model phenomena in a changing world?
+* We introduce the technique of delayed evaluation, which enables us to
+  represent very large (even infinite) sequences as streams.
+* Stream processing lets us model systems that have state without ever using
+  assignment or mutable data.
+* The stream framework raises difficulties of its own, and the question of
+  which modeling technique leads to more modular and more easily maintained
+  systems remains open.
+
