@@ -1,6 +1,6 @@
 # Dependencies
-markdown:            redcarpet
-highlighter:         pygments
+markdown:            kramdown
+highlighter:         rogue
 
 # Permalinks
 permalink:           /:year/:month/:title/
@@ -23,4 +23,8 @@ include: [".well-known"]
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-paginate
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
