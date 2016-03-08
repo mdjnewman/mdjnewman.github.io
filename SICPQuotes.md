@@ -375,4 +375,21 @@ of a delay between the tweet and the full excerpt appearing.
 * The stream framework raises difficulties of its own, and the question of
   which modeling technique leads to more modular and more easily maintained
   systems remains open.
-
+* With streams we can achieve the best of both worlds: We can formulate
+  programs elegantly as sequence manipulations, while attaining the efficiency
+  of incremental computation.
+* We can think of delayed evaluation as “demand-driven” programming, whereby
+  each stage in the stream process is activated only enough to satisfy the next
+  stage.
+* The stream approach can be illuminating because it allows us to build systems
+  with different module boundaries than systems organized around assignment to
+  state variables.
+* We can use streams to model signal-processing systems in a very direct way,
+  representing the values of a signal at successive time intervals as
+  consecutive elements of a stream.
+* One way to avoid the need for two different classes of procedures is to make
+  all procedures take delayed arguments.
+* Converting to normal-order evaluation provides a uniform and elegant way to
+  simplify the use of delayed evaluation
+* As far as anyone knows, mutability and delayed evaluation do not mix well in
+  programming languages
