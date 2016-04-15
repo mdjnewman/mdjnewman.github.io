@@ -393,3 +393,60 @@ of a delay between the tweet and the full excerpt appearing.
   simplify the use of delayed evaluation
 * As far as anyone knows, mutability and delayed evaluation do not mix well in
   programming languages
+* Part of the power of stream processing is that it lets us ignore the order in
+  which events actually happen in our programs. Unfortunately, this is
+  precisely what we cannot afford to do in the presence of assignment, which
+  forces us to be concerned with time and change.
+* The object model approximates the world by dividing it into separate pieces.
+  The functional model does not modularize along object boundaries.
+* Unifying the object view with the functional view may have little to do with
+  programming, but rather with fundamental epistemological issues.
+* "... It's in words that the magic is -- Abracadabra, Open Sesame, and the
+  rest -- but the magic words in one story aren't magical in the next. The real
+  magic is to understand which words work, and when, and for what; the trick is
+  to learn the trick. ... And those words are made from the letters of our
+  alphabet: a couple-dozen squiggles we can draw with the pen. This is the key!
+  And the treasure, too, if we can only get our hands on it! It's as if -- as if
+  the key to the treasure is the treasure!" John Barth, Chimera
+* Expert programmers control the complexity of their designs with the same
+  general techniques used by designers of all complex systems.
+* Combine primitive elements to form compound objects, they abstract compound
+  objects to form higher-level building blocks, and they preserve modularity by
+  adopting appropriate large-scale views of system structure.
+* as we confront increasingly complex problems, we will find that Lisp, or
+  indeed any fixed programming language, is not sufficient for our needs. We
+  must constantly turn to new languages in order to express our ideas more
+  effectively.
+* Establishing new languages is a powerful strategy for controlling complexity
+  in engineering design;
+* We can often enhance our ability to deal with a complex problem by adopting a
+  new language that enables us to describe (and hence to think about) the
+  problem in a different way, using primitives, means of combination, and means
+  of abstraction that are particularly well suited to the problem at hand.
+* Programming is endowed with a multitude of languages.
+* There are physical languages, such as the machine languages for particular
+  computers. These languages are concerned with the representation of data and
+  control in terms of individual bits of storage and primitive machine
+  instructions. The machine-language programmer is concerned with using the given
+  hardware to erect systems and utilities for the efficient implementation of
+  resource-limited computations. High-level languages, erected on a
+  machine-language substrate, hide concerns about the representation of data as
+  collections of bits and the representation of programs as sequences of
+  primitive instructions. These languages have means of combination and
+  abstraction, such as procedure definition, that are appropriate to the
+  larger-scale organization of systems.
+* In programming not only can we formulate new languages but we can also
+  implement these languages by constructing evaluators.
+* An evaluator (or interpreter) for a programming language is a procedure that,
+  when applied to an expression of the language, performs the actions required
+  to evaluate that expression.
+* It is no exaggeration to regard this as the most fundamental idea in
+  programming: The evaluator, which determines the meaning of expressions in a
+  programming language, is just another program.
+* To appreciate this point is to change our images of ourselves as programmers.
+  We come to see ourselves as designers of languages, rather than only users of
+  languages designed by others.
+* Computer science itself becomes no more (and no less) than the discipline of
+  constructing appropriate descriptive languages.
+* We now embark on a tour of the technology by which languages are established
+  in terms of other languages.
