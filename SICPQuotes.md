@@ -450,3 +450,32 @@ of a delay between the tweet and the full excerpt appearing.
   constructing appropriate descriptive languages.
 * We now embark on a tour of the technology by which languages are established
   in terms of other languages.
+* Most language processors contain, deep within them, a little ‘Lisp’ evaluator.
+* In this language of nondeterministic computing, it is natural to express
+  processes that generate all possible values for expressions and then search
+  for those values that satisfy certain constraints.
+* With our nondeterministic evaluator, keeping track of multiple values and
+  performing searches are handled automatically by the underlying mechanism of
+  the language.
+* A logic-programming language in which knowledge is expressed in terms of
+  relations, rather than in terms of computations with inputs and outputs.
+* An evaluator that is written in the same language that it evaluates is said
+  to be metacircular.
+* One important role of the evaluator is to choreograph procedure composition
+  so that `(* 2 3)` is reduced to 6 before being passed as an argument to `+`.
+* The evaluation process can be described as the interplay between two
+  procedures: `eval` and `apply`.
+* In this case, the language being implemented and the implementation language
+  are the same. Contemplation of the meaning of `true?` here yields expansion
+  of consciousness without the abuse of substance.
+* In addition to defining the external syntax of expressions, the evaluator
+  implementation must also define the data structures that the evaluator
+  manipulates internally, as part of the execution of a program, such as the
+  representation of procedures and environments and the representation of true
+  and false.
+* Given the evaluator, we have in our hands a description (expressed in Lisp)
+  of the process by which Lisp expressions are evaluated.
+* One advantage of expressing the evaluator as a program is that we can run the
+  program.
+* This gives us, running within Lisp, a working model of how Lisp itself
+  evaluates expressions.
