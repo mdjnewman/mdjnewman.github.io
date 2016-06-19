@@ -479,3 +479,43 @@ of a delay between the tweet and the full excerpt appearing.
   program.
 * This gives us, running within Lisp, a working model of how Lisp itself
   evaluates expressions.
+* Our evaluator is seen to be a universal machine. It mimics other machines when
+  these are described as Lisp programs. This is striking.
+* It is remarkable that the program evaluator is a rather simple program.
+* That the user's programs are the evaluator's data need not be a source of
+  confusion.
+* Thus, the notion of “what can in principle be computed” (ignoring
+  practicalities of time and memory required) is independent of the language or
+  the computer.
+* Scheme is an applicative-order language, namely, that all the arguments to
+  Scheme procedures are evaluated when the procedure is applied.
+* In contrast, normal-order languages delay evaluation of procedure arguments
+  until the actual argument values are needed.
+* If the body of a procedure is entered before an argument has been evaluated we
+  say that the procedure is non-strict in that argument.
+* If the argument is evaluated before the body of the procedure is entered we say
+  that the procedure is strict in that argument.
+* The basic idea is that, when applying a procedure, the interpreter must
+  determine which arguments are to be evaluated and which are to be delayed.
+* The delayed arguments are not evaluated; instead, they are transformed into
+  objects called thunks.
+* The word thunk was invented by an informal working group that was discussing
+  the implementation of call-by-name in Algol 60. They observed that most of the
+  analysis of (“thinking about”) the expression could be done at compile time;
+  thus, at run time, the expression would already have been “thunk” about.
+* A thunk must package an expression together with the environment, so that the
+  argument can be produced later.
+* With lazy evaluation, streams and lists can be identical, so there is no need
+  for special forms or for separate list and stream operations.
+* Lazy evaluation combined with memoization is sometimes referred to as
+  call-by-need argument passing, in contrast to call-by-name argument passing.
+* Call-by-name, introduced in Algol 60, is similar to non-memoized lazy
+  evaluation.
+* The nondeterministic program evaluator supports the illusion that time
+  branches, and that our programs have different possible execution histories.
+* To extend Scheme to support nondeterminism, we introduce a new special form
+  called `amb`.
+* Abstractly, we can imagine that evaluating an `amb` expression causes time to
+  split into branches, where the computation continues on each branch with one of
+  the possible values of the expression.
+
