@@ -518,4 +518,10 @@ of a delay between the tweet and the full excerpt appearing.
 * Abstractly, we can imagine that evaluating an `amb` expression causes time to
   split into branches, where the computation continues on each branch with one of
   the possible values of the expression.
+* It is hard to underestimate the cost of mass-produced electronics.
+* If a choice results in a failure, then the evaluator automagically backtracks
+  to the most recent choice point and tries the next alternative.
+* The advantage of nondeterministic programming is that we can suppress the
+  details of how search is carried out, thereby expressing our programs at a
+  higher level of abstraction.
 
