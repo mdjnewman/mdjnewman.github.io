@@ -524,4 +524,39 @@ of a delay between the tweet and the full excerpt appearing.
 * The advantage of nondeterministic programming is that we can suppress the
   details of how search is carried out, thereby expressing our programs at a
   higher level of abstraction.
-
+* Observe that a given input may have more than one legal parse. In the
+  sentence "The professor lectures to the student with the cat," it may be that
+  the professor is lecturing with the cat, or that the student has the cat. Our
+  nondeterministic program finds both possibilities.
+* Automagically: "Automatically, but in a way which, for some reason (typically
+  because it is too complicated, or too ugly, or perhaps even too trivial), the
+  speaker doesn't feel like explaining." (Steele 1983, Raymond 1993)
+* Expression-oriented languages (such as Lisp, Fortran, and Algol) capitalize
+  on the "pun" that an expression that describes the value of a function may
+  also be interpreted as a means of computing that value.
+* In a constraint system the direction and the order of computation are not so
+  well specified
+* In a nondeterministic language, expressions can have more than one value,
+  and, as a result, the computation is dealing with relations rather than with
+  single-valued functions.
+* Contemporary logic programming languages (including the one we implement
+  here) have substantial deficiencies, in that their general "how to" methods
+  can lead them into spurious infinite loops or other undesirable behavior.
+* Logic programming is an active field of research in computer science.
+* Interest in logic programming peaked during the early 80s when the Japanese
+  government began an ambitious project aimed at building superfast computers
+  optimized to run logic programming languages. The speed of such computers was
+  to be measured in LIPS (Logical Inferences Per Second) rather than the usual
+  FLOPS (FLoating-point Operations Per Second). Although the project succeeded
+  in developing hardware and software as originally planned, the international
+  computer industry moved in a different direction.
+* Even though the query language is very different from Lisp, we will find it
+  convenient to describe the language in terms of the same general framework we
+  have been using all along: as a collection of primitive elements, together
+  with means of combination that enable us to combine simple elements to create
+  more complex elements and means of abstraction that enable us to regard
+  complex elements as single conceptual units.
+* The query system is organized around two central operations called pattern
+  matching and unification.
+* A pattern matcher is a program that tests whether some datum fits a specified
+  pattern.
