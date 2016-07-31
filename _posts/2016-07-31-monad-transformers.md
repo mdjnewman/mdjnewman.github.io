@@ -26,13 +26,13 @@ playRound :: Config -> Scores -> IO (Bool, Scores)
       case p2HandMaybe of
         Nothing -> return (True, scores)           -- error case 2
         Just y -> do
-          let evenWins = mod (x + y) 2 == 0
+          let evenWins = (x + y) `mod` 2 == 0
           return (False, updateScores config evenWins scores)
 ```
 
-`playRound` takes the config for the game and the current score, and returns a
-side effecting computation that will return a tuple with the new scores and a
-boolean indicating if the game is finished.
+`playRound` takes the configuration for the game and the current score, and
+returns a side effecting computation that will return a tuple with the new
+scores and a boolean indicating if the game is finished.
 
 The method `getHumanHand` used above returns a `IO (Maybe Int)`, which can be
 interpreted as a side effecting action that might return an integer (in this
@@ -46,23 +46,27 @@ the same - we assume that if the user has entered something other than an `Int`
 that they want to end the game.
 
 I recently learned about Monad transformers, which allow you to compose monads.
-In this case, we want to compose the Maybe monad with the IO monad.
+In this case, we want to compose the Maybe monad with the IO monad, so we will
+use [`MaybeT`](https://www.stackage.org/haddock/lts-6.2/transformers-0.4.2.0/Control-Monad-Trans-Maybe.html#g:1).
 
-Rewriting the above using the `MaybeT` transformer results in the following:
+Rewriting `getHumanHand` to return a `MaybeT IO Int` and rewriting `playRound`
+results in the following:
 
 ```haskell
 playRound' :: Config -> Scores -> IO (Bool, Scores)
 playRound' config scores = do
+
   newScores <- runMaybeT $ do
     liftIO $ putStr "P1: "
-    p1Hand <- MaybeT getHumanHand
+    p1Hand <- getHumanHand'
     liftIO $ putStr "P2: "
-    p2Hand <- MaybeT getHumanHand
-    let evenWins = mod (p1Hand + p2Hand) 2 == 0
+    p2Hand <- getHumanHand'
+    let evenWins = (p1Hand + p2Hand) `mod` 2 == 0
     return $ updateScores config evenWins scores
-  case newScores of
-    Nothing -> return (True, scores)
-    Just x -> return (False, x)
+
+  return $ case newScores of
+    Nothing -> (True, scores)
+    Just x -> (False, x)
 ```
 
 The nice thing about this implementation is that we've avoided the need for
