@@ -4,7 +4,7 @@ layout: post
 ---
 
 I've been spending some time working through [Haskell Programming From First
-Principles](http://haskellbook.com/ recently) which is a very comprehensive
+Principles](http://haskellbook.com/) recently which is a very comprehensive
 introduction to functional programming and Haskell.
 
 One of the exercises to implement a simplified command line version of
