@@ -7,7 +7,7 @@ permalink:           /:year/:month/:title/
 # Setup
 title:               Matt Newman
 tagline:             ''
-description:         'Personal website & blog for a developer living in Brisbane, Australia.'
+description:         'Personal website & blog for a developer currently living in Dallas, Texas (previously Brisbane, Australia).'
 baseurl:             ''
 paginate:            5
 
