@@ -167,4 +167,4 @@ and assuming that they should `git pull --rebase`, which in this case is exactly
 
 If you're looking for further reading, [Visualizing Git Concepts with D3](http://www.wei-wang.com/ExplainGitWithD3/) is pretty great and [Getting Started - Git Basics](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics) covers the fundamentals.
 
-Diagrams were created using [Gitgraph.js](http://gitgraphjs.com/).
+Diagrams were created using [Gitgraph.js](http://gitgraphjs.com/), and [this script](/public/2017-07-05-when-should-i-force-push-after-rebasing-script.sh) creates an example repository.
