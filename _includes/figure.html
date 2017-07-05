@@ -3,7 +3,9 @@
     <a href="{{ full_url }}">
         <img src="{{ full_url }}" alt="{% if include.alt == blank %}{{ include.caption }}{% else %}{{ include.alt }}{% endif %}">
     </a>
-<figcaption>
+    {% if include.caption != blank %}
+    <figcaption>
     {{ include.caption }}
-</figcaption>
+    </figcaption>
+    {% endif %}
 </figure>
