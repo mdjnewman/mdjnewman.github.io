@@ -72,9 +72,9 @@ blog doesn't get much traffic, so the cost would be minimal).
 Given that most of the shenanigans with injecting content into web sites
 happens at the last leg of a connection (I'm looking at you, dodgy internet
 cafe), I'm happy that the new setup for this blog mitigates that problem and am
-willing to accept the cost/security trade-off. It's possible for someone to
-perform a man in the middle attack impersonate GitHub, but given my site has no
-sensitive information I'm not too worried about this threat model (Troy Hunt
+willing to accept the cost/security trade-off. While it’s possible for someone
+to perform a man in the middle attack and impersonate GitHub, given my site has
+no sensitive information I’m not too worried about this threat model (Troy Hunt
 also [wrote
 about](https://www.troyhunt.com/cloudflare-ssl-and-unhealthy-security-absolutism/)
 this trade-off).
