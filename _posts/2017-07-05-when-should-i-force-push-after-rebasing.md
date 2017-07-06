@@ -165,6 +165,6 @@ and have 3 and 1 different commits each, respectively.
 
 and assuming that they should `git pull --rebase`, which in this case is exactly what you *don't* want.
 
-If you're looking for further reading, [Visualizing Git Concepts with D3](http://www.wei-wang.com/ExplainGitWithD3/) is pretty great and [Getting Started - Git Basics](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics) covers the fundamentals.
+If you're looking for further reading [Getting Started - Git Basics](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics) covers the fundamentals and [LearnGitBranching](http://learngitbranching.js.org/) is a great interactive tool.
 
 Diagrams were created using [Gitgraph.js](http://gitgraphjs.com/), and [this script](/public/2017-07-05-when-should-i-force-push-after-rebasing-script.sh) creates an example repository.
