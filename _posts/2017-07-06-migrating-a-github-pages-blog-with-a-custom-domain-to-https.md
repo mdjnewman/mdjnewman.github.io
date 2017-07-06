@@ -22,8 +22,9 @@ GitHub pages doesn't support HTTPS for custom domain names, as it uses a
 certificate with a wildcard SAN of `*.github.io`.
 
 [CloudFlare](https://www.cloudflare.com/) offers HTTPS on a free plan, which
-[Troy Hunt](https://www.troyhunt.com/how-to-get-your-ssl-for-free-on-shared/)
-has written about before.
+Troy Hunt has [written
+about](https://www.troyhunt.com/how-to-get-your-ssl-for-free-on-shared/)
+before.
 
 It looks like this will meet my constraints above - I get to keep using GitHub
 Pages, I don't have to manage a cert (CloudFlare takes care of this), and I can
