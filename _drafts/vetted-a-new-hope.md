@@ -22,6 +22,8 @@ For me, it would mainly be a learning opportunity. Maybe I will build something
 useful enough that other small veterinary practices would find it useful, but
 that's not really the goal at the moment.
 
+Naming things is not my strong suit, so I'm going with 'Vetted' for now.
+
 I'm going to try to do the following throughout the project:
 
 * Apply domain driven design rigorously
