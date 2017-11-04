@@ -18,9 +18,7 @@ users, the main benefits of this would be:
 3. it will be accessible anywhere with internet access, so that my dad could do
    accounts when he is away from home and has some downtime.
 
-For me, it would mainly be a learning opportunity. Maybe I will build something
-useful enough that other small veterinary practices would find it useful, but
-that's not really the goal at the moment.
+For me, it would mainly be a learning opportunity.
 
 Naming things is not my strong suit, so I'm going with 'Vetted' for now.
 
@@ -43,8 +41,8 @@ I'm thinking that the basic architecture for now will be:
 * Maybe some kind of event sourced data store, as I'd like to see how badly I
   can shoot my foot off
 
-While I want to build something useful, I also want to learn about a few
-techniques/patterns/tools that would be useful on larger projects, so I might
+While I want to build something functional, I also want to learn about a few
+techniques/patterns/tools that would be applicable on larger projects, so I might
 be making some choices which seems strange. I'll try to call these out as they
 happen. I need to remember that [I am not Google][unphat].
 
