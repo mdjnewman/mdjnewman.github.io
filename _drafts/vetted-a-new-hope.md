@@ -3,12 +3,12 @@ title: Vetted - a new project
 layout: post
 ---
 
-When I was in high school, I created a fairly basic 
-application for managing a small veterinary practice. It's written in Microsoft
-Access and is used by my parents to manage their mobile veterinary business.
+When I was in high school, I created a fairly basic application for managing a
+small veterinary practice. It's written in Microsoft Access and is used by my
+parents to manage their mobile veterinary business.
 
-I'm toying with rebuilding it as a web application. For its current
-users, the main benefits of this would be:
+I'm toying with rebuilding it as a web application. For its current users, the
+main benefits of this would be:
 
 1. client contact details could be made available on a mobile device;
 2. there will be no more (or at least fewer) issues with concurrent
@@ -74,10 +74,11 @@ myself using while working on this project.
 ### Develop in the open
 
 I'm going to be writing about what I'm building, and the code will be available
-on GitHub. However, I'm not planning on releasing the source under a free and
-open-source software license at the moment. (What licence, if any, do you plan to release the source under?)
+on GitHub. However, I haven't yet determined how to license the project. My
+basic requirement is that I retain copyright and can relicense the project if
+that's ever required.
 
-
+Look out for a post on this in the near future.
 
 [unphat]: https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb
 [heuristics-talk]: https://www.youtube.com/watch?v=fWCt5KWfTuo
