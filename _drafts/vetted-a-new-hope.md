@@ -3,11 +3,11 @@ title: Vetted - a new project
 layout: post
 ---
 
-When I was in high school, I created what is in hindsight a fairly basic
+When I was in high school, I created a fairly basic 
 application for managing a small veterinary practice. It's written in Microsoft
 Access and is used by my parents to manage their mobile veterinary business.
 
-For a while I've toyed with rebuilding it as a web application. For its current
+I'm toying with rebuilding it as a web application. For its current
 users, the main benefits of this would be:
 
 1. client contact details could be made available on a mobile device;
@@ -75,7 +75,7 @@ myself using while working on this project.
 
 I'm going to be writing about what I'm building, and the code will be available
 on GitHub. However, I'm not planning on releasing the source under a free and
-open-source software license at the moment.
+open-source software license at the moment. (What licence, if any, do you plan to release the source under?)
 
 
 
