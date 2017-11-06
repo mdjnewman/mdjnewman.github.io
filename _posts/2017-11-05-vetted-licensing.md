@@ -51,6 +51,7 @@ opportunity for me.
 
 Further resources:
 
+* [choosealicense.com](https://choosealicense.com)
 * [GitHub CLA][gh-cla]
 * [Phil Haack's excellent three part series][haacked-part-1]
 * [Open source licensing: What every technologist should know][what-every-techy-should-know]
