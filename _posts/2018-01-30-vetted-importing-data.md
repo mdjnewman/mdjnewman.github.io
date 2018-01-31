@@ -82,6 +82,14 @@ Further Reading
 * [Importing data and Event Sourcing][so-importing-data-and-event-sourcing] on Stack Overflow
 * [Event Sourcing][mf-event-sourcing] on martinfowler.com
 
+Acknowledgements
+----------------
+
+Thanks to Roman Safronov, Chris Rowe, Martin Fowler, Mariano Giuffrida, Jim
+Barritt and Nouman Memon for taking the time to reply and/or chat about event
+sourcing! Any good ideas are theirs, and errors are mine.
+
+
 [vetted-a-new-hope]: /2017/11/vetted-a-new-hope/
 [gg-importing-historic-data]: https://groups.google.com/forum/#!topic/dddcqrs/xUbKn8YLJfk
 [so-importing-data-and-event-sourcing]: https://stackoverflow.com/questions/43640256/importing-data-and-event-sourcing
