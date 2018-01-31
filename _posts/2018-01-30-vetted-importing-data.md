@@ -7,7 +7,7 @@ layout: post
 
 A task I'm going to have to tackle sooner or later is importing data from the
 existing Access database. As I'm going to try my hand at event sourcing, this
-raises and interesting question:
+raises an interesting question:
 
 > Given an existing application with data stored in an relational database & no
 > notion of events, how do you go about importing data into an event sourced
