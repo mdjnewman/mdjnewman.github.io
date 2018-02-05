@@ -146,8 +146,8 @@ and with CBOR:
  111.5437408734899774
 ```
 
-This didn't have a huge impact on the run time of the importer, but is a
-worthwhile optimisation for storage space reasons.
+This didn't have a huge impact on the run time of the importer, but is still a
+worthwhile optimisation.
 
 ## Option 3 - Generated schema changes
 
@@ -160,18 +160,13 @@ postgres=# \d domain_event_entry
                        Table "public.domain_event_entry"
         Column        |          Type          | Collation | Nullable | Default
 ----------------------+------------------------+-----------+----------+---------
- global_index         | bigint                 |           | not null |
- event_identifier     | character varying(255) |           | not null |
  meta_data            | oid                    |           |          |
  payload              | oid                    |           | not null |
- payload_revision     | character varying(255) |           |          |
- payload_type         | character varying(255) |           | not null |
- time_stamp           | character varying(255) |           | not null |
- aggregate_identifier | character varying(255) |           | not null |
- sequence_number      | bigint                 |           | not null |
- type                 | character varying(255) |           |          |
+ ...
 ```
 
+The `oid` type here is a reference to a large object which is stored externally
+from the table.
 
 [o-of-m]: https://en.wikipedia.org/wiki/Order_of_magnitude
 [prem-optimisation]: http://wiki.c2.com/?PrematureOptimization
@@ -181,4 +176,8 @@ postgres=# \d domain_event_entry
 [asynchronouscommandbus]: https://github.com/AxonFramework/AxonFramework/blob/master/core/src/main/java/org/axonframework/commandhandling/AsynchronousCommandBus.java
 [different-serializer-for-events]: https://docs.axonframework.org/part4/performance-tuning.html#different-serializer-for-events
 [jackson]: https://github.com/FasterXML/jackson
+
 [psql-lo]: https://www.postgresql.org/docs/10/static/largeobjects.html
+[axon-postgresql-without-toast]: https://blog.trifork.com/2017/10/09/axon-postgresql-without-toast/
+[postgres-plus-axon]: https://groups.google.com/forum/#!msg/axonframework/PfzLa3hBR0Y/nsie2H8kPP8J
+[jpa-lob-issue]: https://github.com/AxonFramework/AxonFramework/issues/445
