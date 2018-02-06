@@ -5,7 +5,7 @@ layout: post
 
 Since the [last post](/2018/01/vetted-importing-data/), I've started working on
 an importer to load data from the existing Access database. Work to date is on
-[GitHub](https://github.com/mdjnewman/vetted/tree/df12f63ac3c9ac2729c84f3c7796de3273ec0773/api/importer).
+[GitHub](https://github.com/mdjnewman/vetted/tree/f1253732f1c2e582fd6412a45aa75a133fa8bb78).
 
 In the current domain model, there is a single aggregate root, the `Client`.
 The importer is written as a command line application which interacts directly
@@ -67,7 +67,6 @@ After looking at the generated schema and doing some sampling with
 * Asynchronous processing of commands
 * Serialisation format changes
 * Generated schema changes
-* Refactoring to importer to avoid hydrating the `Client` multiple times
 
 The first three really fall into infrastructure type changes, whereas the last
 requires a refactoring of the application code.
@@ -76,8 +75,8 @@ requires a refactoring of the application code.
 
 I'm using the [Axon framework][axon], which handles a lot of the plumbing of
 building an application based on DDD & CQRS principles. By default when using
-the Spring autoconfiguration, a [`SimpleCommandBus`][simplecommandbus] is
-used which processes commands on the calling thread.
+the Spring autoconfiguration, a [`SimpleCommandBus`][simplecommandbus] is used
+which processes commands on the calling thread.
 
 I added some configuration to use a [`AsynchronousCommandBus`][asynchronouscommandbus]
 with a configurable number of threads:
@@ -131,8 +130,8 @@ fun serializer(): Serializer {
 ```
 
 I opted for using [Jackson][jackson] with a 'Concise Binary Object
-Representation' (CBOR) `JsonFactory`. This resulted in a ~70% reduction
-in size for the serialized payload for most events. With XML:
+Representation' (CBOR) `JsonFactory`. This resulted in a ~70% reduction in size
+for the serialized payload for most events. With XML:
 
 ```
 postgres=# select avg(length(loread(lo_open(payload::int, x'40000'::int), x'40000'::int))) from domain_event_entry;
@@ -155,7 +154,8 @@ worthwhile optimisation.
 ## Option 3 - Generated schema changes
 
 You may have noticed in the SQL statments above that the current schema is
-using the PostgreSQL [large objects][psql-lo] functionality. From the PostgreSQL docs:
+using the PostgreSQL [large objects][psql-lo] functionality. From the
+PostgreSQL docs:
 
 > PostgreSQL has a large object facility, which provides stream-style access
 > to user data that is stored in a special large-object structure. Streaming
@@ -185,12 +185,31 @@ Groups][postgres-plus-axon] and [StackOverflow][jpa-lob-issue]. The suggestion
 to customise the PostgreSQL dialect used by Hibernate seems to work, and
 further reduced the runtime to around 8 seconds.
 
-## Option 4 - Refactoring the importer
+# Conclusion
 
-The three options above were very unintrusive from the perspective of the
-importer application code, and resulted in some decent performance improvements.
+The three changes above have reduced the run time of the importer from around
+80 seconds to around 8 seconds, based on my very rough benchmarking. The code
+is all at the link above, and the optimisations are on by default. To start
+PostgreSQL in a Docker container and run the importer without the
+optimisations, use the following commands:
 
-However, I think the elephant in the room is the current design of the importer itself.
+```
+PASSWORD=$(uuidgen)
+docker run \
+    --publish 5432:5432/tcp \
+    --name some-postgres \
+    --env POSTGRES_PASSWORD=$PASSWORD \
+    --detach \
+    postgres
+./gradlew build
+java -jar importer/build/libs/vetted-importer-0.0.1-SNAPSHOT.jar \
+    --axon.use-async-command-bus=false \
+    --axon.use-cbor-serializer=false \
+    --spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL95Dialect \
+    --spring.datasource.password=$PASSWORD
+```
+
+There is surely more that can be done, but that's fast enough for now!
 
 [o-of-m]: https://en.wikipedia.org/wiki/Order_of_magnitude
 [prem-optimisation]: http://wiki.c2.com/?PrematureOptimization
