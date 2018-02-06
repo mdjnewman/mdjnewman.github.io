@@ -84,7 +84,9 @@ with a configurable number of threads:
 
 ```
 @Bean
-@ConditionalOnProperty("axon.use-async-command-bus", matchIfMissing = true)
+@ConditionalOnProperty(
+    "axon.use-async-command-bus",
+    matchIfMissing = true)
 fun bus(
     transactionManager: TransactionManager,
     @Value("\${axon.command-bus.executor.pool-size}") poolSize: Int
@@ -92,7 +94,8 @@ fun bus(
     val bus = AsynchronousCommandBus(
         Executors.newFixedThreadPool(poolSize)
     )
-    bus.registerHandlerInterceptor(TransactionManagingInterceptor(transactionManager))
+    val tmi = TransactionManagingInterceptor(transactionManager)
+    bus.registerHandlerInterceptor(tmi)
 
     return bus
 }
@@ -133,17 +136,17 @@ in size for the serialized payload for most events. With XML:
 
 ```
 postgres=# select avg(length(loread(lo_open(payload::int, x'40000'::int), x'40000'::int))) from domain_event_entry;
-         avg
-----------------------
- 433.6900305323244391
+     avg
+--------------
+ 433.69003053
 ```
 
 and with CBOR:
 
 ```
-         avg
-----------------------
- 111.5437408734899774
+     avg
+--------------
+ 111.54379774
 ```
 
 This didn't have a huge impact on the run time of the importer, but is still a
@@ -152,21 +155,42 @@ worthwhile optimisation.
 ## Option 3 - Generated schema changes
 
 You may have noticed in the SQL statments above that the current schema is
-using the PostgreSQL [large objects][psql-lo] functionality. If we inspect the
-schema that's being generated:
+using the PostgreSQL [large objects][psql-lo] functionality. From the PostgreSQL docs:
+
+> PostgreSQL has a large object facility, which provides stream-style access
+> to user data that is stored in a special large-object structure. Streaming
+> access is useful when working with data values that are too large to
+> manipulate conveniently as a whole.
+
+If we inspect the schema that's being generated:
 
 ```
 postgres=# \d domain_event_entry
-                       Table "public.domain_event_entry"
-        Column        |          Type          | Collation | Nullable | Default
-----------------------+------------------------+-----------+----------+---------
- meta_data            | oid                    |           |          |
- payload              | oid                    |           | not null |
+     Table "public.domain_event_entry"
+      Column      | Type | Nullable | Default
+------------------+------+----------+---------
+ meta_data        | oid  |          |
+ payload          | oid  | not null |
  ...
 ```
 
-The `oid` type here is a reference to a large object which is stored externally
-from the table.
+The `oid` type here is a **o**bject **id**entifier - a reference to a large
+object which is stored externally from the table. The events we're writing are
+small enough that the overhead of reading them as separate streams is hurting
+performance rather than helping.
+
+At least two people have had the same issue as me when using Axon with
+PostgreSQL, as evidenced by the questions on [Google
+Groups][postgres-plus-axon] and [StackOverflow][jpa-lob-issue]. The suggestion
+to customise the PostgreSQL dialect used by Hibernate seems to work, and
+further reduced the runtime to around 8 seconds.
+
+## Option 4 - Refactoring the importer
+
+The three options above were very unintrusive from the perspective of the
+importer application code, and resulted in some decent performance improvements.
+
+However, I think the elephant in the room is the current design of the importer itself.
 
 [o-of-m]: https://en.wikipedia.org/wiki/Order_of_magnitude
 [prem-optimisation]: http://wiki.c2.com/?PrematureOptimization
