@@ -71,6 +71,34 @@ After looking at the generated schema and doing some sampling with
 The first three really fall into infrastructure type changes, whereas the last
 requires a refactoring of the application code.
 
+In order to compare a full run of the importer pre and post optimisations, I
+want to be able to toggle the optimisations on/off from the command line. The
+following script has the toggle properties in place, and in the sections below I
+will use Spring config management to read these properties.
+
+```
+PASSWORD=$(uuidgen)
+
+docker run \
+    --publish 5432:5432/tcp \
+    --name some-postgres \
+    --env POSTGRES_PASSWORD=$PASSWORD \
+    --detach \
+    postgres
+
+./gradlew build
+
+java \
+    -jar importer/build/libs/vetted-importer-0.0.1-SNAPSHOT.jar \
+    --axon.use-async-command-bus=false \
+    --axon.use-cbor-serializer=false \
+    --spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL95Dialect \
+    --spring.datasource.password=$PASSWORD
+```
+
+The script above will allow me to evaluate the impact of any changes I make in
+a repeatable fashion.
+
 ## Option 1 - Asynchronous processing of commands
 
 I'm using the [Axon framework][axon], which handles a lot of the plumbing of
@@ -84,8 +112,9 @@ with a configurable number of threads:
 ```
 @Bean
 @ConditionalOnProperty(
-    "axon.use-async-command-bus",
-    matchIfMissing = true)
+    value = ["axon.use-async-command-bus"],
+    matchIfMissing = true
+)
 fun bus(
     transactionManager: TransactionManager,
     @Value("\${axon.command-bus.executor.pool-size}") poolSize: Int
@@ -93,6 +122,7 @@ fun bus(
     val bus = AsynchronousCommandBus(
         Executors.newFixedThreadPool(poolSize)
     )
+
     val tmi = TransactionManagingInterceptor(transactionManager)
     bus.registerHandlerInterceptor(tmi)
 
@@ -119,8 +149,9 @@ Overriding the serializer is thankfully quite easy:
 @Primary
 @Bean
 @ConditionalOnProperty(
-    "axon.use-cbor-serializer",
-    matchIfMissing = true)
+    value = ["axon.use-cbor-serializer"],
+    matchIfMissing = true
+)
 fun serializer(): Serializer {
     val objectMapper = ObjectMapper(CBORFactory())
     objectMapper.findAndRegisterModules()
@@ -189,27 +220,10 @@ further reduced the runtime to around 8 seconds.
 
 The three changes above have reduced the run time of the importer from around
 80 seconds to around 8 seconds, based on my very rough benchmarking. The code
-is all at the link above, and the optimisations are on by default. To start
-PostgreSQL in a Docker container and run the importer without the
-optimisations, use the following commands:
+is all at the link above, and the optimisations are on by default.
 
-```
-PASSWORD=$(uuidgen)
-docker run \
-    --publish 5432:5432/tcp \
-    --name some-postgres \
-    --env POSTGRES_PASSWORD=$PASSWORD \
-    --detach \
-    postgres
-./gradlew build
-java -jar importer/build/libs/vetted-importer-0.0.1-SNAPSHOT.jar \
-    --axon.use-async-command-bus=false \
-    --axon.use-cbor-serializer=false \
-    --spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL95Dialect \
-    --spring.datasource.password=$PASSWORD
-```
-
-There is surely more that can be done, but that's fast enough for now!
+There is surely more that can be done, to improve performance, but that's fast
+enough for now!
 
 [o-of-m]: https://en.wikipedia.org/wiki/Order_of_magnitude
 [prem-optimisation]: http://wiki.c2.com/?PrematureOptimization
