@@ -1,0 +1,6 @@
+pre {
+  white-space: pre;
+  overflow: auto;
+  font-size: 0.7rem;
+  word-wrap: unset;
+}
