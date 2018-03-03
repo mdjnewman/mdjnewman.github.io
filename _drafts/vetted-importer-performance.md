@@ -17,13 +17,13 @@ in the future). At a high level, the importer currently:
     * Notes are freeform text about a client, unrelated to any particular patient or
       transaction
     * The existing application is a little limited in what can be entered into
-      the main form, so notes have been used to make up the slack (e.g.
+      the main form, so notes have been used to make up the slack (e.g. in the
       existing data, there are numerous clients which have an email address or fax
       number in the notes field, as there is no first class input for these values)
 * Adds home and mobile phone numbers
 * Adds the 'most common travel distance' as a note
 
-These steps are clearly visible in the implementation of the importer:
+These steps are visible in the implementation of the importer:
 
 ```kotlin
 override fun run(vararg args: String?) {
@@ -68,9 +68,6 @@ After looking at the generated schema and doing some sampling with
 * Serialisation format changes
 * Generated schema changes
 
-The first three really fall into infrastructure type changes, whereas the last
-requires a refactoring of the application code.
-
 In order to compare a full run of the importer pre and post optimisations, I
 want to be able to toggle the optimisations on/off from the command line. The
 following script has the toggle properties in place, and in the sections below I
@@ -79,9 +76,11 @@ will use Spring config management to read these properties.
 ```
 PASSWORD=$(uuidgen)
 
+docker stop vetted-postgres ; docker rm vetted-postgres
+
 docker run \
     --publish 5432:5432/tcp \
-    --name some-postgres \
+    --name vetted-postgres \
     --env POSTGRES_PASSWORD=$PASSWORD \
     --detach \
     postgres
@@ -103,7 +102,7 @@ a repeatable fashion.
 
 I'm using the [Axon framework][axon], which handles a lot of the plumbing of
 building an application based on DDD & CQRS principles. By default when using
-the Spring autoconfiguration, a [`SimpleCommandBus`][simplecommandbus] is used
+the Spring auto-configuration, a [`SimpleCommandBus`][simplecommandbus] is used
 which processes commands on the calling thread.
 
 I added some configuration to use a [`AsynchronousCommandBus`][asynchronouscommandbus]
@@ -205,24 +204,24 @@ postgres=# \d domain_event_entry
  ...
 ```
 
-The `oid` type here is a **o**bject **id**entifier - a reference to a large
+The `oid` type here is an **o**bject **id**entifier - a reference to a large
 object which is stored externally from the table. The events we're writing are
 small enough that the overhead of reading them as separate streams is hurting
 performance rather than helping.
 
-At least two people have had the same issue as me when using Axon with
-PostgreSQL, as evidenced by the questions on [Google
-Groups][postgres-plus-axon] and [StackOverflow][jpa-lob-issue]. The suggestion
-to customise the PostgreSQL dialect used by Hibernate seems to work, and
-further reduced the runtime to around 8 seconds.
+At least two people have had the same issue when using Axon with PostgreSQL, as
+evidenced by the questions on [Google Groups][postgres-plus-axon] and
+[StackOverflow][jpa-lob-issue]. The suggestion to customise the PostgreSQL
+dialect used by Hibernate seems to work, and further reduced the runtime to
+around 8 seconds.
 
 # Conclusion
 
-The three changes above have reduced the run time of the importer from around
-80 seconds to around 8 seconds, based on my very rough benchmarking. The code
+Based on my very rough benchmarking, the three changes above have reduced the
+run time of the importer from around 80 seconds to 8 seconds. The code
 is all at the link above, and the optimisations are on by default.
 
-There is surely more that can be done, to improve performance, but that's fast
+There is surely more that can be done to improve performance, but that's fast
 enough for now!
 
 [o-of-m]: https://en.wikipedia.org/wiki/Order_of_magnitude
