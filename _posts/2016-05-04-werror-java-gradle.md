@@ -1,6 +1,7 @@
 ---
 title: -Xlint:unchecked and -Werror for Java projects with Gradle
 layout: post
+category: Software/Tech
 ---
 
 I was recently working in a codebase where there were chunks of Java code that

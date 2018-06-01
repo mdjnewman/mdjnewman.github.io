@@ -1,6 +1,7 @@
 ---
 title: Vetted - choosing an appropriate license
 layout: post
+category: Software/Tech
 ---
 
 *See [Vetted - a new project][vetted-a-new-hope] for some background.*

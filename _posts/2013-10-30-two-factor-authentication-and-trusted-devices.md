@@ -1,6 +1,7 @@
 ---
 title: 'Two-factor authentication and ‘trusted’ devices'
 layout: post
+category: Software/Tech
 ---
 
 [This][1] is an interesting article – it’s the story of a couple who challenged a hacking team to pen-test their digital lives. To give some context to the following quote, their laptop has been compromised and user ID and password for their on-line banking account at Chase has been stolen by the ethical hacking team:

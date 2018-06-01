@@ -1,6 +1,7 @@
 ---
 title: Installing self signed certificates on Android (Jelly Bean)
 layout: post
+category: Software/Tech
 ---
 
 I was pretty happy when I found out Android now supports installing self signed certificates, but had some trouble getting the certificate I use for administering this blog installed.

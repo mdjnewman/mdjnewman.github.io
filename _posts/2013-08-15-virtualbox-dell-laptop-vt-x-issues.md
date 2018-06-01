@@ -1,6 +1,7 @@
 ---
 title: VirtualBox + Dell laptop VT-x issues
 layout: post
+category: Software/Tech
 ---
 
 I recently had to use a VM for a uni project, and needed to have access on my laptop & desktop. I haven’t used a VM on my laptop in a

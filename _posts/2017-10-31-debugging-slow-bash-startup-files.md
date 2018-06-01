@@ -1,6 +1,7 @@
 ---
 title: 'Debugging slow bash startup files'
 layout: post
+category: Software/Tech
 ---
 
 Recently I found that opening a new `bash` session (e.g. when opening a new

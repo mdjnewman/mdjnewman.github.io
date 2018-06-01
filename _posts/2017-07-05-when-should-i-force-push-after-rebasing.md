@@ -1,6 +1,7 @@
 ---
 title: When should I force push after rebasing?
 layout: post
+category: Software/Tech
 ---
 
 tl;dr: assuming it's your own branch, **immediately**.

@@ -1,6 +1,7 @@
 ---
 title: BFPG talk - Functional Programming in Scala Chapters 7 & 8
 layout: post
+category: Software/Tech
 ---
 
 In May, I presented a talk based on Chapters 7 & 8 of [Functional Programming

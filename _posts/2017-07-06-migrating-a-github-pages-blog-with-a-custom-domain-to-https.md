@@ -1,6 +1,7 @@
 ---
 title: Migrating a GitHub Pages blog with a custom domain to HTTPS
 layout: post
+category: Software/Tech
 ---
 
 At the time of writing, this blog is hosted on [GitHub Pages](https://pages.github.com/),

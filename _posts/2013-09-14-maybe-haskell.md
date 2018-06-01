@@ -1,6 +1,7 @@
 ---
 title: 'Maybe Haskell …'
 layout: post
+category: Software/Tech
 ---
 
 After reading [Learn You a Haskell][1] on and off over the past fortnight and watching a couple of Erik Meijer’s [Functional Programming Fundamentals][2],

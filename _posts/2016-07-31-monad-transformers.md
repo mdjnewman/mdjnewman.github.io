@@ -1,6 +1,7 @@
 ---
 title: Monad transformers
 layout: post
+category: Software/Tech
 ---
 
 I've been spending some time working through [Haskell Programming From First
