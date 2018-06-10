@@ -560,3 +560,101 @@ of a delay between the tweet and the full excerpt appearing.
   matching and unification.
 * A pattern matcher is a program that tests whether some datum fits a specified
   pattern.
+* The pattern matcher used by the query system takes as inputs a pattern, a
+  datum, and a frame that specifies bindings for various pattern variables.
+* The pattern matcher is all the mechanism that is needed to process simple
+  queries that don't involve rules.
+* Because matching is generally very expensive, we would like to avoid applying
+  the full matcher to every element of the data base. This is usually arranged
+  by breaking up the process into a fast, coarse match and the final match. The
+  coarse match filters the data base to produce a small set of candidates for the
+  final match. With care, we can arrange our data base so that some of the work
+  of coarse matching can be done when the data base is constructed rather then
+  when we want to select the candidates. This is called indexing the data base.
+* There is a vast technology built around data-base-indexing schemes. Our
+  implementation, described in section 4.4.4, contains a simple-minded form of
+  such an optimization.
+* Rule conclusions are like assertions except that they can contain variables,
+  so we will need a generalization of pattern matching -- called unification --
+  in which both the "pattern" and the "datum" may contain variables.
+* The unification algorithm is the most technically difficult part of the query
+  system. With complex patterns, performing unification may seem to require
+  deduction.
+* The aim of logic programming is to provide the programmer with techniques for
+  decomposing a computational problem into two separate problems: "what" is to
+  be computed, and "how" this should be computed. This is accomplished by
+  selecting a subset of the statements of mathematical logic that is powerful
+  enough to be able to describe anything one might want to compute, yet weak
+  enough to have a controllable procedural interpretation.
+* Control ("how" to compute) is effected by using the order of evaluation of
+  the language.
+* One of the major concerns of research in logic programming is to find ways to
+  achieve more consistency with mathematical logic without unduly sacrificing
+  expressive power.
+* the not of logic programming languages reflects the so-called closed world
+  assumption that all relevant information has been included in the data base.
+* One important problem in designing logic programming languages is that of
+  arranging things so that as few irrelevant data-base entries as possible will
+  be examined in checking a given pattern.
+* Can you relate any of this to the problem of making deductions in a context
+  (e.g., "If I supposed that P were true, then I would be able to deduce A and
+  B.") as a method of problem solving? (This problem is open-ended. A good answer
+  is probably worth a Ph.D.)
+* These questions remain unanswered because the metacircular evaluator is
+  itself a Lisp program and hence inherits the control structure of the
+  underlying Lisp system. In order to provide a more complete description of the
+  control structure of the Lisp evaluator, we must work at a more primitive level
+  than Lisp itself.
+* To design a register machine, we must design its data paths (registers and
+  operations) and the controller that sequences these operations.
+* Data-path and controller diagrams are adequate for representing simple
+  machines such as GCD, but they are unwieldy for describing large machines
+  such as a Lisp interpreter.
+* This implementation of factorial illustrates the general strategy for
+  realizing recursive algorithms as ordinary register machines augmented by
+  stacks.
+* The representation method outlined in section 5.3.1 solves the problem of
+  implementing list structure, provided that we have an infinite amount of
+  memory.
+* If we can arrange to collect all the garbage periodically, and if this turns
+  out to recycle memory at about the same rate at which we construct new pairs,
+  we will have preserved the illusion that there is an infinite amount of memory.
+* Garbage collection is based on the observation that, at any moment in a Lisp
+  interpretation, the only objects that can affect the future of the
+  computation are those that can be reached by some succession of car and cdr
+  operations starting from the pointers that are currently in the machine
+  registers.14 Any memory cell that is not so accessible may be recycled.
+* There are many ways to perform garbage collection. The method we shall
+  examine here is called stop-and-copy. The basic idea is to divide memory into
+  two halves: "working memory" and "free memory." When working memory is full, we
+  perform garbage collection by locating all the useful pairs in working memory
+  and copying these into consecutive locations in free memory. Nothing in the
+  working memory is needed, since all the useful pairs in it have been copied.
+  Thus, if we interchange the roles of working memory and free memory, we can
+  continue processing; new pairs will be allocated in the new working memory
+  (which was the old free memory). This idea was invented and first implemented
+  by Minsky, as part of the implementation of Lisp for the PDP-1 at the MIT
+  Research Laboratory of Electronics. It was further developed by Fenichel and
+  Yochelson (1969) for use in the Lisp implementation for the Multics
+  time-sharing system. Later, Baker (1978) developed a "real-time" version of the
+  method, which does not require the computation to stop during garbage
+  collection.
+* An alternative commonly used garbage-collection technique is the mark-sweep
+  method. This consists of tracing all the structure accessible from the
+  machine registers and marking each pair we reach. We then scan all of memory,
+  and any location that is unmarked is "swept up" as garbage and made available
+  for reuse.
+* We now use our register-machine language to describe the stop-and-copy
+  algorithm in more detail. We will assume that there is a register called root
+  that contains a pointer to a structure that eventually points at all accessible
+  data.
+* In the car position, we place a special tag that signals that this is an
+  already-moved object (such an object is traditionally called a broken heart.)
+* The explicit-control evaluator that we develop in this section shows how the
+  underlying procedure-calling and argument-passing mechanisms used in the
+  evaluation process can be described in terms of operations on registers and
+  stacks.
+* For example, with tail recursion, an infinite loop can be expressed using
+  only the procedure-call mechanism. Without tail recursion, such a procedure
+  would eventually run out of stack space, and expressing a true iteration would
+  require some control mechanism other than procedure call.
