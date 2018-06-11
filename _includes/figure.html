@@ -1,7 +1,11 @@
 {% capture full_url %}{{ site.baseurl }}{{ include.src }}{% endcapture %}
 <figure>
     <a href="{{ full_url }}">
-        <img src="{{ full_url }}" alt="{% if include.alt == blank %}{{ include.caption }}{% else %}{{ include.alt }}{% endif %}">
+        <img
+          class="b-lazy"
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="{{ full_url }}"
+          alt="{% if include.alt == blank %}{{ include.caption }}{% else %}{{ include.alt }}{% endif %}" />
     </a>
     {% if include.caption != blank %}
     <figcaption>
