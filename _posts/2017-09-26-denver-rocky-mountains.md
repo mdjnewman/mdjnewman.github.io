@@ -10,21 +10,23 @@ Last week I went to [ExploreDDD](http://exploreddd.com/) (which I would highly
 recommend) in Denver on Thursday and Friday, joined a tour to the Rocky
 Mountains on Saturday, and explored Denver on Sunday.
 
-Denver is a cool city, figuratively and literally. It's quite high, almost
-exactly one mile above sea level. The Colorado capital building is in Denver,
-and the stairs out the front have a plaque to show which one is exactly one
-mile above sea level, but measurements kept getting more and more accurate, so
-there are actually three plaques! Content of the conference
-aside, even the view from the venue was pretty amazing:
+Content of the conference aside, even the view from the venue was pretty
+amazing:
 
 {% include figure.html src="/public/images/2017/09/20170921_090819.jpg" alt="View of Denver buildings with Rocky Mountains in the background" %}
 
-Sadly the weather was pretty poor on Saturday, and there wasn't lots to see out
-of the lookout 12,000 ft (~3600m) up:
+Sadly the weather was pretty poor on Saturday for the Roucky Mountains visit,
+and there wasn't lots to see out of the lookout 12,000 ft (~3600m) up:
 
 {% include figure.html src="/public/images/2017/09/20170923_132003.jpg" alt="Photo of Matt trying to see a view, but all there is outside is fog" %}
 
-A few random facts:
+Denver is a cool city, figuratively and literally. It's quite high, almost
+exactly one mile above sea level. The Colorado capital building is in Denver;
+the stairs out the front have a plaque to show which one is exactly one mile
+above sea level, but measurements kept getting more and more accurate, so there
+are actually three plaques!
+
+A few random facts from the visit:
 
 * The trees with yellow leaves in the picture above are aspens, and they
   actually grow in clumps all connected via a common root system
