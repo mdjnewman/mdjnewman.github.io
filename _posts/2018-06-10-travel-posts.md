@@ -43,9 +43,9 @@ I ended up committing them into the Git repository that backs this static site,
 but that does mean the repo size is going to grow a lot more than it should. As
 it's just me working on this repo though, I can always use [`git
 filter-branch`](https://git-scm.com/docs/git-filter-branch) as a last resort if
-I do want to move the images elsewhere.
-
-I did fairly aggressively reduce the file size with ImageMagick:
+I do want to move the images elsewhere. To avoid bloating the repo too much and
+to keep loading times low I did fairly aggressively reduce the file size with
+ImageMagick:
 
 ```
 mogrify -sampling-factor 4:2:0 \
