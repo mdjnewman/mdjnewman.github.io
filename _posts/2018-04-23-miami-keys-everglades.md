@@ -71,4 +71,3 @@ last stop for the day before heading to MIA and back to CVG.
 
 {% include figure.html src="/public/images/2018/04/fl/everglades-lookout.jpg" %}
 {% include figure.html src="/public/images/2018/04/fl/everglades-selfie.jpg" %}
-
