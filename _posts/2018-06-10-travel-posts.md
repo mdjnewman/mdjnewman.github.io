@@ -5,7 +5,11 @@ category: Software/Tech
 ---
 
 Sometime in the next couple of days I'm going to publish a bunch of back dated
-posts about travel I've done recently (or in some cases not so recently).
+posts about travel I've done recently (or in some cases not so recently). A lot
+of these posts are taken straight from emails I sent to family and friends at
+the time I did the actual travel, I decided to post them here as [email is
+where keystrokes go to
+die](https://www.hanselman.com/blog/DoTheyDeserveTheGiftOfYourKeystrokes.aspx).
 
 This is a bit of a departure from what has been the norm on this blog so far,
 and for those following via RSS I've introduced categories and separate feeds
@@ -13,9 +17,6 @@ for the [Software/Tech]({{ site.baseurl }}/feed/category/software-tech/)
 category and the [Travel]({{site.baseurl }}/feed/category/travel/) category in
 addition to the [existing feed containing all posts]({{ site.baseurl }}/feed/).
 If you'd rather not hear about travel posts, please update your subscription :)
-
-A lot of these posts are taken straight from emails I sent to family and
-friends at the time I did the actual travel.
 
 Technically, the only interesting part of this is handling the images I wanted
 to include in the posts. I've included a few images in the past, but never in a
