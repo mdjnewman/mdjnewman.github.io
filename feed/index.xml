@@ -19,7 +19,7 @@ layout: null
     <title>{{ post.title | xml_escape }}</title>
     <link href="{{ post.url | absolute_url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>{{ "" | absolute_url }}{{ post.id }}</id>
+    <id>{{ post.url | absolute_url }}</id>
     {% if post.category %}<category term="{{ post.category | slugify }}" label="{{ post.category }}"></category>{% endif %}
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
