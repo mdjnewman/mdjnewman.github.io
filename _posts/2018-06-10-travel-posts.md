@@ -13,10 +13,11 @@ die](https://www.hanselman.com/blog/DoTheyDeserveTheGiftOfYourKeystrokes.aspx).
 
 This is a bit of a departure from what has been the norm on this blog so far,
 and for those following via RSS I've introduced categories and separate feeds
-for the [Software/Tech]({{ site.baseurl }}/feed/category/software-tech/)
-category and the [Travel]({{site.baseurl }}/feed/category/travel/) category in
-addition to the [existing feed containing all posts]({{ site.baseurl }}/feed/).
-If you'd rather not hear about travel posts, please update your subscription :)
+for the [Software/Tech]({{ "/feed/category/software-tech/" | relative_url }})
+category and the [Travel]({{ "/feed/category/travel/" | relative_url }})
+category in addition to the [existing feed containing all posts]({{ "/feed/" |
+relative_url }}).  If you'd rather not hear about travel posts, please update
+your subscription :)
 
 Technically, the only interesting part of this is handling the images I wanted
 to include in the posts. I've included a few images in the past, but never in a

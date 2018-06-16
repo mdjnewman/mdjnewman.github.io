@@ -6,12 +6,12 @@ layout: page
 
 <ul>
   <li>
-    <a href="{{ site.baseurl }}/feed/">All posts</a>
+    <a href="{{ "/feed/" | relative_url }}">All posts</a>
   </li>
   <li>
-    <a href="{{ site.baseurl }}/feed/category/software-tech/">Software/Tech</a>
+    <a href="{{ "/feed/category/software-tech/" | relative_url }}">Software/Tech</a>
   </li>
   <li>
-    <a href="{{ site.baseurl }}/feed/category/travel/">Travel</a>
+    <a href="{{ "/feed/category/travel/" | relative_url }}">Travel</a>
   </li>
 </ul>

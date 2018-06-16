@@ -8,7 +8,6 @@ permalink:           /:year/:month/:title/
 title:               Matt Newman
 tagline:             ''
 description:         'Personal website & blog for a developer currently living in Dallas, Texas (previously Brisbane, Australia).'
-baseurl:             ''
 paginate:            5
 
 # About/contact

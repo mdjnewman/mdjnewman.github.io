@@ -13,9 +13,9 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <a href="{{ "/" | relative_url }}" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
-            <a href="{{ site.baseurl }}/feeds"><img src="{{ site.baseurl }}/public/images/icons/rss-feed.svg" alt="RSS Icon" style="height: 0.75em; float: right;"/></a>
+            <a href="{{ "/feeds" | relative_url }}"><img src="{{ "/public/images/icons/rss-feed.svg" | relative_url }}" alt="RSS Icon" style="height: 0.75em; float: right;"/></a>
           </h3>
         </div>
       </div>
