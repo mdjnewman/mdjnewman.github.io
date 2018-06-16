@@ -57,7 +57,7 @@ tours were all booked out.
 {% include figure.html src="/public/images/2018/05/dc/capitol-rotunda.jpg" %}
 
 The Library of Congress is reachable from the Capitol via a tunnel, so I went
-there next ­ another super impressive building. Jefferson was apparently a big
+there next - another super impressive building. Jefferson was apparently a big
 reader and his collection of books was there, they weren't all dated but some
 were super old.
 
