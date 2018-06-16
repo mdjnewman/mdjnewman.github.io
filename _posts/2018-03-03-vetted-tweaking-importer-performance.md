@@ -1,6 +1,7 @@
 ---
 title: Vetted - tweaking importer performance
 layout: post
+category: Software/Tech
 ---
 
 Since the [last post](/2018/01/vetted-importing-data/), I've started working on

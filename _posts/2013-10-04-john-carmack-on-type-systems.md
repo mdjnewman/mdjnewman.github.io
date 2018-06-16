@@ -1,6 +1,7 @@
 ---
 title: John Carmack on type systems
 layout: post
+category: Software/Tech
 ---
 
 > It’s just amazing how many mistakes [are made] and how bad programmers can be. Everything that is syntactically legal, that the compiler will accept, will eventually wind up in your code base. And that is why I think static typing is so valuable.

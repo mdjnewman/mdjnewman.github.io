@@ -1,6 +1,7 @@
 ---
 title: 'ThoughtWorks LevelUp EXP Brisbane – Take 2'
 layout: post
+category: Software/Tech
 ---
 
 {% include figure.html src="/public/images/2014/05/ThoughtWorks-LevelUp-EXP-Brisbane-May-2014.jpg" caption="LevelUp EXP Brisbane Attendees (thanks Alexandra Tran for the photo!)" %}

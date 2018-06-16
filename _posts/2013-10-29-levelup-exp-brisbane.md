@@ -1,6 +1,7 @@
 ---
 title: ThoughtWorks LevelUp EXP Brisbane
 layout: post
+category: Software/Tech
 ---
 
 On Saturday I was lucky enough to attend [ThoughtWorks LevelUp EXP][1] at the ThoughtWorks Brisbane office.

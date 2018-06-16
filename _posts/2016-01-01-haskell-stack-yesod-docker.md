@@ -1,6 +1,7 @@
 ---
 title: Haskell stack, Yesod and Docker
 layout: post
+category: Software/Tech
 ---
 
 ## The why

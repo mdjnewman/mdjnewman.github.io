@@ -1,6 +1,7 @@
 ---
 title: Vetted - importing data into an event sourced system
 layout: post
+category: Software/Tech
 ---
 
 *See [Vetted - a new project][vetted-a-new-hope] for some background.*

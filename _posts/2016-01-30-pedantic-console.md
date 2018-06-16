@@ -1,6 +1,7 @@
 ---
 title: Pedantic console for JavaScript tests
 layout: post
+category: Software/Tech
 ---
 
 When running JavaScript tests that fire up a browser, it can be useful to

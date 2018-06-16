@@ -1,6 +1,7 @@
 ---
 title: Vetted - a new project
 layout: post
+category: Software/Tech
 ---
 
 When I was in high school, I created a fairly basic application for managing a

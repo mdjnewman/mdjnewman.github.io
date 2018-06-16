@@ -1,6 +1,7 @@
 ---
 title: Why Functional Programming Matters
 layout: post
+category: Software/Tech
 ---
 
 The following is the conclusion from a paper entitled ‘Why Functional Programming Matters':

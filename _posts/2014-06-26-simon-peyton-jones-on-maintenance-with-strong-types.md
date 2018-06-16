@@ -1,6 +1,7 @@
 ---
 title: Simon Peyton Jones on maintenance with strong types
 layout: post
+category: Software/Tech
 ---
 
 > People don’t like fixing type errors, but they are a lot easier to fix than runtime errors… The single biggest thing going for static typing is not so much that it helps you write your program in the first place, but it helps you maintain your program.
