@@ -6,8 +6,8 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>{{ site.title }}</title>
- <link href="{{ site.url }}/feed/" rel="self"/>
- <link href="{{ site.url }}/"/>
+ <link href="{{ "/feed/" | absolute_url }}" rel="self"/>
+ <link href="{{ site.url | absolute_url }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}/</id>
  <author>
@@ -17,7 +17,7 @@ layout: null
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title | xml_escape }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
+   <link href="{{ post.url | relative_url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
    {% if post.category %}<category term="{{ post.category | slugify }}" label="{{ post.category }}"></category>{% endif %}
