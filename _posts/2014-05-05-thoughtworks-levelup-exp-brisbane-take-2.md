@@ -55,7 +55,7 @@ Hugo Firth ([@hugo_firth][14]) was giving the next lightning talk, this time wit
 
 The last lightning talk in the first session was by Claudia Ferreira ([@claudia_onfire][16]), providing some practical advice for dealing with difficult work environments. You shouldn’t assume that the end of uni is the end of the hard work. Starting a new job, meeting new people and adapting to company culture is just as hard. Also, you don’t want to fall into the trap of thinking that you know everything and that you can stop learning. There is an almost endless variety of work environments, some good and some not so great. Claudia showed the following clip from The Matrix and told us about a time she was in this exact position.
 
-<div class='embed-container'><iframe src='http://www.youtube.com/embed/c_Ot1OEfk9I' frameborder='0' allowfullscreen></iframe></div>
+<div class='embed-container'><iframe src='https://www.youtube.com/embed/c_Ot1OEfk9I' frameborder='0' allowfullscreen></iframe></div>
 
 Claudia’s boss basically said you’re here to work, not think, and there are hundreds of people who can fill this spot if you aren’t happy with that. Hopefully you won’t find yourself in a situation this extreme, but chances are you’ll have a boss you’re not overly excited about working with at some point in your career. If you find yourself in this situation, don’t just bottle it up and say nothing. Your team is there to help, you should be able to trust them and speak to them about issues. It’s important to have a good relationship with your team, as they’re the people that you spend the majority of your day with. So don’t stress if you’re confronted with a difficult situation, just take a deep breath, speak up if you really don’t agree and be the bigger person.
 
