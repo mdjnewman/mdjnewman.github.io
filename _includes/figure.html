@@ -1,4 +1,4 @@
-{% capture full_url %}{{ include.src | relative_url }}{% endcapture %}
+{% capture full_url %}{{ include.src | absolute_url }}{% endcapture %}
 <figure>
     <a href="{{ full_url }}">
         <img
