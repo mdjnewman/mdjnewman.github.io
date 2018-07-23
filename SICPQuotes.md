@@ -658,3 +658,65 @@ of a delay between the tweet and the full excerpt appearing.
   only the procedure-call mechanism. Without tail recursion, such a procedure
   would eventually run out of stack space, and expressing a true iteration would
   require some control mechanism other than procedure call.
+* With the implementation of the explicit-control evaluator we come to the end
+  of a development, begun in chapter 1, in which we have explored successively
+  more precise models of the evaluation process.
+* Commercial general-purpose computers are register machines organized around a
+  collection of registers and operations that constitute an efficient and
+  convenient universal set of data paths.
+* The controller for a general-purpose machine is an interpreter for a
+  register-machine language like the one we have been using. This language is
+  called the native language of the machine, or simply machine language.
+* There are two common strategies for bridging the gap between higher-level
+  languages and register-machine languages. The explicit-control evaluator
+  illustrates the strategy of interpretation. An interpreter written in the
+  native language of a machine configures the machine to execute programs written
+  in a language (called the source language) that may differ from the native
+  language of the machine performing the evaluation. A program to be interpreted
+  (called the source program) is represented as a data structure. The interpreter
+  traverses this data structure, analyzing the source program. As it does so, it
+  simulates the intended behavior of the source program by calling appropriate
+  primitive subroutines from the library. In this section, we explore the
+  alternative strategy of compilation. A compiler for a given source language and
+  machine translates a source program into an equivalent program (called the
+  object program) written in the machine's native language.
+* Compared with interpretation, compilation can provide a great increase in the
+  efficiency of program execution, as we will explain below in the overview of
+  the compiler. On the other hand, an interpreter provides a more powerful
+  environment for interactive program development and debugging, because the
+  source program being executed is available at run time to be examined and
+  modified.
+* Each time the interpreter evaluates an expression -- for example, `(f 84 96)`
+  -- it performs the work of classifying the expression (discovering that this
+  is a procedure application) and testing for the end of the operand list
+  (discovering that there are two operands). With a compiler, the expression is
+  analyzed only once, when the instruction sequence is generated at compile time.
+* There are further opportunities to gain efficiency in compiled code. As the
+  interpreter runs, it follows a process that must be applicable to any
+  expression in the language. In contrast, a given segment of compiled code is
+  meant to execute some particular expression. This can make a big difference,
+  for example in the use of the stack to save registers. When the interpreter
+  evaluates an expression, it must be prepared for any contingency. Before
+  evaluating a subexpression, the interpreter saves all registers that will be
+  needed later, because the subexpression might require an arbitrary evaluation.
+  A compiler, on the other hand, can exploit the structure of the particular
+  expression it is processing to generate code that avoids unnecessary stack
+  operations.
+* An interpreter raises the machine to the level of the user program; a
+  compiler lowers the user program to the level of the machine language. We can
+  regard the Scheme language (or any programming language) as a coherent family
+  of abstractions erected on the machine language.
+* Interpreters are good for interactive program development and debugging
+  because the steps of program execution are organized in terms of these
+  abstractions, and are therefore more intelligible to the programmer.
+* Compiled code can execute faster, because the steps of program execution are
+  organized in terms of the machine language, and the compiler is free to make
+  optimizations that cut across the higher-level abstractions.
+* Compilers for popular languages, such as C and C++, put hardly any
+  error-checking operations into running code, so as to make things run as fast
+  as possible. As a result, it falls to programmers to explicitly provide error
+  checking. Unfortunately, people often neglect to do this, even in critical
+  applications where speed is not a constraint. Their programs lead fast and
+  dangerous lives. For example, the notorious "worm" that paralyzed the
+  Internet in 1988 exploited the UNIX TM operating system's failure to check
+  whether the input buffer has overflowed in the finger daemon.
