@@ -6,7 +6,7 @@ category: Travel
 
 {% include figure.html src="/public/images/2017/09/20170923_152855.jpg" alt="Aspen trees in the Rocky Mountains" %}
 
-Last week I went to [ExploreDDD](http://exploreddd.com/) (which I would highly
+Last week I went to [Explore DDD](http://exploreddd.com/) (which I would highly
 recommend) in Denver on Thursday and Friday, joined a tour to the Rocky
 Mountains on Saturday, and explored Denver on Sunday.
 
@@ -58,4 +58,4 @@ A few random facts from the visit:
   and is consistently voted the favorite public are installation
 
 Despite the weather it was a fun weekend, I'm looking forward to going to
-[ExploreDDD](http://exploreddd.com/) again in 2018.
+[Explore DDD](http://exploreddd.com/) again in 2018.
