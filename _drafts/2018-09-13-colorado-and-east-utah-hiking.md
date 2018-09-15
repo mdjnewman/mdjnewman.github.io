@@ -23,11 +23,35 @@ Springs on the way back to Denver.
 
 <p></p>
 
-It was a fun week of hiking (89 km) and driving (2,261 km).
+It was a fun week of hiking (89 km) and driving (2,261 km), with a little planning required:
+
+* [AllTrails](https://www.alltrails.com/) worked really well for organising
+  hikes. I paid for a lifetime Pro membership, which meant I could download
+  trails for offline use (very handy in the more remote parks)
+* [Airbnb](www.airbnb.com.au/c/mattn226) rooms near the hiking spots meant I
+  could get up early and beat the crowds & heat
+* An [America the Beautiful Pass](https://www.nps.gov/planyourvisit/passes.htm)
+  covered the entrance fees at all the national parks
+* A [3L Osprey Raptor 14
+  pack](https://www.rei.com/product/896905/osprey-raptor-14-hydration-pack-3-liters)
+  kept me hydrated
+* [KEEN Targhee III Low WP hiking
+  shoes](https://www.rei.com/product/119906/keen-targhee-iii-low-wp-hiking-shoes-mens)
+  ensured that my feet stayed dry and had a little more support
 
 
 Boulder Open Space
 ------------------
+
+First up was Chautauqua Park in Boulder, CO. A couple of colleagues based in
+Denver/Boulder recommended hiking here, and it was well worth it.
+
+The route below is a combination of the [Royal Arch
+Trail](https://www.alltrails.com/explore/trail/us/colorado/royal-arch-trail),
+[First and Second Flatiron
+Loop](https://www.alltrails.com/explore/trail/us/colorado/first-and-second-flatiron-hike)
+and the [Green Mountain
+Loop](https://www.alltrails.com/explore/trail/us/colorado/green-mountain-loop).
 
 <div class='embed-container'>
   <iframe
@@ -38,9 +62,30 @@ Boulder Open Space
   </iframe>
 </div>
 
+The hike had amazing views of the
+[Flatirons](https://en.wikipedia.org/wiki/Flatirons) & Royal Arch:
+
+{% include figure.html src="/public/images/2018/09/hiking/20180907_100708.jpg" %}
+{% include figure.html src="/public/images/2018/09/hiking/20180907_105437.jpg" %}
+{% include figure.html src="/public/images/2018/09/hiking/20180907_123823.jpg" %}
 
 Rocky Mountain National Park
 ----------------------------
+
+I visited the Rocky Mountains NP last year, but as you can see from the earlier
+post linked above, the weather was a little different this time.
+
+I was lucky enough to drive past a fairly huge elk chilling very close to the
+road.
+
+{% include figure.html src="/public/images/2018/09/hiking/20180908_071649.jpg" %}
+
+Most of the hiking I did was in the Bear Lake area, on the [Emerald
+Lake](https://www.alltrails.com/explore/trail/us/colorado/emerald-lake-trail)
+and [Sky Pond via Glacier
+Gorge](https://www.alltrails.com/explore/trail/us/colorado/sky-pond-via-glacier-gorge-trail)
+trails.
+
 <div class='embed-container'>
   <iframe
     frameborder='0'
@@ -50,8 +95,33 @@ Rocky Mountain National Park
   </iframe>
 </div>
 
+The mountain lakes & aspens were spectacular:
+
+{% include figure.html src="/public/images/2018/09/hiking/20180908_081514.jpg" %}
+{% include figure.html src="/public/images/2018/09/hiking/20180908_084608.jpg" %}
+{% include figure.html src="/public/images/2018/09/hiking/20180908_101009.jpg" %}
+{% include figure.html src="/public/images/2018/09/hiking/20180908_121445.jpg" %}
+
+There was a very friendly marmot up near Sky Pond, though he was probably just
+looking for food:
+
+<!-- ffmpeg -i *.mp4 -vcodec libvpx-vp9 -b:v 700K -filter:v scale=-1:480 -threads 4 -an marmot.webm -->
+
+<video style="width: 100%; height: 100%;" autoplay loop>
+  <source src="{{ "/public/images/2018/09/hiking/marmot.webm" | relative_url }}" type="video/webm; codecs=vp9">
+</video>
+
 Arches National Park
 --------------------
+
+Sunday saw me driving from Boulder to Arches National Park in Utah, through
+Grand Valley.
+
+The [Devils
+Garden](https://www.alltrails.com/explore/trail/us/utah/devils-garden-loop-trail-with-7-arches)
+trail was amazing, with the 88 meter Landscape Arch a definite highlight.
+
+{% include figure.html src="/public/images/2018/09/hiking/20180909_160527.jpg" %}
 
 <div class='embed-container'>
   <iframe
@@ -65,6 +135,13 @@ Arches National Park
 Canyonlands National Park
 -------------------------
 
+Next up was Canyonlands National Park. I stayed near La Sal on Sunday night, which made the Needles section of the park a better option than heading back north to Island in the Sky.
+
+The [Chesler Park
+Loop](https://www.alltrails.com/explore/trail/us/utah/chesler-park) was one of
+the highlights of the whole trip. The landscape looks other-wordly at times,
+and it was a lightly trafficked trail.
+
 <div class='embed-container'>
   <iframe
     frameborder='0'
@@ -74,27 +151,36 @@ Canyonlands National Park
   </iframe>
 </div>
 
+{% include figure.html src="/public/images/2018/09/hiking/20180910_085945.jpg" %}
+{% include figure.html src="/public/images/2018/09/hiking/20180910_093206.jpg" %}
+{% include figure.html src="/public/images/2018/09/hiking/20180910_095407.jpg" %}
+{% include figure.html src="/public/images/2018/09/hiking/20180910_103511.jpg" %}
+
 Mesa Verde National Park
 ------------------------
 
-<div class='embed-container'>
-  <iframe
-    frameborder='0'
-    allowtransparency='true'
-    scrolling='no'
-    src='https://www.strava.com/activities/1835155132/embed/cf9bb34619a2fa45ad26c81ad107bac54ed82896'>
-  </iframe>
-</div>
+After staying in Cortez on Monday night, I visited Mesa Verde National Park, a
+UNESCO World Heritage Site. The park is best known for the cliff dwellings
+built by the [Ancestral
+Puebloans](https://en.wikipedia.org/wiki/Ancestral_Puebloans), in several
+hundred years prior to the 1200's.
+
+I managed to get in early and score a ticket to a guided tour of [Cliff
+Palace](https://en.wikipedia.org/wiki/Cliff_Palace).
+
+{% include figure.html src="/public/images/2018/09/hiking/20180911_085132.jpg" %}
+{% include figure.html src="/public/images/2018/09/hiking/20180911_101217.jpg" %}
+
+The only hike I did here was [Petroglyph
+Point](https://www.alltrails.com/explore/trail/us/colorado/petroglyph-point-trail),
+which passes a large [petroglyph](https://en.wikipedia.org/wiki/Petroglyph)
+panel. The carvings were likely made around the same time as the cliff
+dwellings were built.
+
+{% include figure.html src="/public/images/2018/09/hiking/20180911_114156.jpg" %}
 
 Great Sand Dunes National Park
 ------------------------------
 
-<div class='embed-container'>
-  <iframe
-    frameborder='0'
-    allowtransparency='true'
-    scrolling='no'
-    src='https://www.strava.com/activities/1835657987/embed/dc230dca1bd7e3c5f008e8591d0684a702d459b9'>
-  </iframe>
-</div>
+The final national park I visited was Great Sand Dunes
 
