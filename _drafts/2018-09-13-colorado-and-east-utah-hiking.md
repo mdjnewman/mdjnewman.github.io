@@ -72,8 +72,9 @@ The hike had amazing views of the
 Rocky Mountain National Park
 ----------------------------
 
-I visited the Rocky Mountains NP last year, but as you can see from the earlier
-post linked above, the weather was a little different this time.
+I visited the [Rocky Mountains National
+Park](https://www.nps.gov/romo/index.htm) last year, but as you can see from
+the earlier post linked above, the weather was a little different this time.
 
 I was lucky enough to drive past a fairly huge elk chilling very close to the
 road.
@@ -114,12 +115,12 @@ looking for food:
 Arches National Park
 --------------------
 
-Sunday saw me driving from Boulder to Arches National Park in Utah, through
-Grand Valley.
+Sunday saw me driving from Boulder to [Arches National
+Park](https://www.nps.gov/arch/index.htm) in Utah, through Grand Valley.
 
 The [Devils
 Garden](https://www.alltrails.com/explore/trail/us/utah/devils-garden-loop-trail-with-7-arches)
-trail was amazing, with the 88 meter Landscape Arch a definite highlight.
+trail was amazing, with the 88 meter Landscape Arch a highlight.
 
 {% include figure.html src="/public/images/2018/09/hiking/20180909_160527.jpg" %}
 
@@ -135,7 +136,9 @@ trail was amazing, with the 88 meter Landscape Arch a definite highlight.
 Canyonlands National Park
 -------------------------
 
-Next up was Canyonlands National Park. I stayed near La Sal on Sunday night, which made the Needles section of the park a better option than heading back north to Island in the Sky.
+Next up was [Canyonlands National Park](https://www.nps.gov/cany/index.htm). I
+stayed near La Sal on Sunday night, which made the Needles section of the park
+a better option than heading back north to Island in the Sky.
 
 The [Chesler Park
 Loop](https://www.alltrails.com/explore/trail/us/utah/chesler-park) was one of
@@ -159,9 +162,9 @@ and it was a lightly trafficked trail.
 Mesa Verde National Park
 ------------------------
 
-After staying in Cortez on Monday night, I visited Mesa Verde National Park, a
-UNESCO World Heritage Site. The park is best known for the cliff dwellings
-built by the [Ancestral
+After staying in Cortez on Monday night, I visited [Mesa Verde National
+Park](https://www.nps.gov/meve/index.htm), a UNESCO World Heritage Site. The
+park is best known for the cliff dwellings built by the [Ancestral
 Puebloans](https://en.wikipedia.org/wiki/Ancestral_Puebloans), in several
 hundred years prior to the 1200's.
 
@@ -182,5 +185,11 @@ dwellings were built.
 Great Sand Dunes National Park
 ------------------------------
 
-The final national park I visited was Great Sand Dunes
+The final national park I visited was [Great Sand
+Dunes](https://www.nps.gov/grsa/index.htm). I was a bit rushed here, but I
+wanted to make a stop in the park to see the contrast of sand dunes and
+mountains. In my mind dunes belong in deserts or at the coast, not at 8,200
+feet elevation in the foothills of even higher mountains.
+
+{% include figure.html src="/public/images/2018/09/hiking/20180911_174442.jpg" %}
 
