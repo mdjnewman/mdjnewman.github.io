@@ -37,14 +37,14 @@ It was a fun week of hiking (89 km) and driving (2,261 km), with a little planni
   kept me hydrated
 * [KEEN Targhee III Low WP hiking
   shoes](https://www.rei.com/product/119906/keen-targhee-iii-low-wp-hiking-shoes-mens)
-  ensured that my feet stayed dry and had a little more support
+  ensured that my feet stayed dry and had decent support
 
 
 Boulder Open Space
 ------------------
 
 First up was Chautauqua Park in Boulder, CO. A couple of colleagues based in
-Denver/Boulder recommended hiking here, and it was well worth it.
+Denver/Boulder recommended hiking here, and I'm glad I listened.
 
 The route below is a combination of the [Royal Arch
 Trail](https://www.alltrails.com/explore/trail/us/colorado/royal-arch-trail),
@@ -165,16 +165,16 @@ Mesa Verde National Park
 After staying in Cortez on Monday night, I visited [Mesa Verde National
 Park](https://www.nps.gov/meve/index.htm), a UNESCO World Heritage Site. The
 park is best known for the cliff dwellings built by the [Ancestral
-Puebloans](https://en.wikipedia.org/wiki/Ancestral_Puebloans), in several
-hundred years prior to the 1200's.
+Puebloans](https://en.wikipedia.org/wiki/Ancestral_Puebloans).
 
 I managed to get in early and score a ticket to a guided tour of [Cliff
-Palace](https://en.wikipedia.org/wiki/Cliff_Palace).
+Palace](https://en.wikipedia.org/wiki/Cliff_Palace), a dwelling built around
+year 1200.
 
 {% include figure.html src="/public/images/2018/09/hiking/20180911_085132.jpg" %}
 {% include figure.html src="/public/images/2018/09/hiking/20180911_101217.jpg" %}
 
-The only hike I did here was [Petroglyph
+Other than the Cliff Palace tour, the only hike I did here was [Petroglyph
 Point](https://www.alltrails.com/explore/trail/us/colorado/petroglyph-point-trail),
 which passes a large [petroglyph](https://en.wikipedia.org/wiki/Petroglyph)
 panel. The carvings were likely made around the same time as the cliff
@@ -186,10 +186,10 @@ Great Sand Dunes National Park
 ------------------------------
 
 The final national park I visited was [Great Sand
-Dunes](https://www.nps.gov/grsa/index.htm). I was a bit rushed here, but I
+Dunes](https://www.nps.gov/grsa/index.htm). This was a rushed visit, but I
 wanted to make a stop in the park to see the contrast of sand dunes and
 mountains. In my mind dunes belong in deserts or at the coast, not at 8,200
-feet elevation in the foothills of even higher mountains.
+feet elevation in the foothills of mountains.
 
 {% include figure.html src="/public/images/2018/09/hiking/20180911_174442.jpg" %}
 
