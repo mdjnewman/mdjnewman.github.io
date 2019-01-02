@@ -70,14 +70,14 @@ the name for a valley formed by erosion). I recorded the hike [on
 Strava](https://www.strava.com/activities/1877069065) and plotted it on Google
 Maps:
 
-{% include figure.html src="/public/images/2018/10/bison-gulch.jpg" %}
+{% include figure.html src="/public/images/2018/10/alaska/bison-gulch.jpg" %}
 
 Photos from the hike start
 [here](https://photos.google.com/share/AF1QipMhytWglc3XpWNn8PFJwqoQ7qIiZmrJFTtFrrmQF6YaogNr7nujWWSgvXp8ZsmccA/photo/AF1QipNaEyHXtZVEx8SJVK4PeZgo0kMr-Q6C4eqlcEQk?key=R0hiU2hjRm1VQ0swa19rSFRLZkQ3d0lrdEkwa3N3)
 in the album. It was pretty brutal, we climbed 1,259 m and a lot of that
 towards the end was over very loose shale. Here's one of us up near the top:
 
-{% include figure.html src="/public/images/2018/10/near-summit.jpg" %}
+{% include figure.html src="/public/images/2018/10/alaska/near-summit.jpg" %}
 
 It's lucky we went when we did; a couple of weeks later and it would have been
 rather chilly! I think the snow there is from some early falls a week before we
