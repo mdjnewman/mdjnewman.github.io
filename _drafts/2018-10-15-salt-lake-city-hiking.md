@@ -1,5 +1,5 @@
 ---
-title: Hiking around Salt Lake City
+title: Salt Lake City
 layout: post
 category: Travel
 ---
