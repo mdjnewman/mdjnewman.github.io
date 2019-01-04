@@ -109,7 +109,18 @@ And finally Monterey:
 Part 4 - San Francisco (again)
 ------------------------------
 
-...
+I spent the last four days of 2018 running, walking and hiking my way primarily
+through SF, in an effort to work of combined Thanksgiving/holiday
+party/Christmas calories 😂
+
+The only visits outside SF were to Sausalito and a hike in the Claremont Canyon
+Regional Preserve in Berkeley. Some select photos:
+
+{% include figure.html src="/public/images/2018/12/20181228_114103-pier-39.jpg" %}
+{% include figure.html src="/public/images/2018/12/20181228_153117-gg-bridge-from-bakers-beach.jpg" %}
+{% include figure.html src="/public/images/2018/12/20181229_114417-lombard-st.jpg" %}
+{% include figure.html src="/public/images/2018/12/20181230_164732-sf-from-sausalito.jpg" %}
+{% include figure.html src="/public/images/2018/12/20190101_001531-fireworks.jpg" %}
 
 [ca]: https://en.wikipedia.org/wiki/California
 [arts-palace]: https://en.wikipedia.org/wiki/Palace_of_Fine_Arts
