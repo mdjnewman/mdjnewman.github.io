@@ -75,12 +75,41 @@ Hollywood sign before flying out on Sunday:
 
 {% include figure.html src="/public/images/2018/12/20181209-hollywood.jpg" %}
 
-
 Part 3 - Drive from LA → SF
 ---------------------------
 
-...
+After landing in LA on Boxing Day morning, I took a couple of days to drive up
+to San Francisco, mostly along [California State Route 1][ca-1] (a.k.a the
+Pacific Coast Highway). It's a lovely drive, a few highlights include:
 
+Beutiful beaches along the way:
+
+{% include figure.html src="/public/images/2018/12/20181226_104036-beaches.jpg" %}
+
+Elephant seals:
+
+<video style="max-width: 100%; margin: 0 auto; display: block;" autoplay loop muted>
+  <source src="{{ "/public/images/2018/12/20181227_110553-seals.webm" | relative_url }}" type="video/webm; codecs=vp9">
+</video>
+
+<p></p>
+
+The Buzzards Roost trail in [Big Sur State Park][big-sur]:
+
+{% include figure.html src="/public/images/2018/12/20181227_133656-big-sur.jpg" %}
+
+[Carmel-by-the-Sea][carmel]:
+
+{% include figure.html src="/public/images/2018/12/20181227_145831-carmel-by-the-sea.jpg" %}
+
+And finally Monterey:
+
+{% include figure.html src="/public/images/2018/12/20181227_155218-monterey.jpg" %}
+
+Part 4 - San Francisco (again)
+------------------------------
+
+...
 
 [ca]: https://en.wikipedia.org/wiki/California
 [arts-palace]: https://en.wikipedia.org/wiki/Palace_of_Fine_Arts
@@ -91,3 +120,6 @@ Part 3 - Drive from LA → SF
 [lost-horse-mine]: https://www.alltrails.com/trail/us/california/lost-horse-mine
 [getty]: https://en.wikipedia.org/wiki/J._Paul_Getty_Museum
 [griffith]: https://en.wikipedia.org/wiki/Griffith_Observatory
+[ca-1]: https://en.wikipedia.org/wiki/California_State_Route_1
+[big-sur]: https://www.parks.ca.gov/?page_id=570
+[carmel]: https://en.wikipedia.org/wiki/Carmel-by-the-Sea,_California

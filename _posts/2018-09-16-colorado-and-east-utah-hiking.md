@@ -108,7 +108,7 @@ looking for food:
 
 <!-- ffmpeg -i *.mp4 -vcodec libvpx-vp9 -b:v 700K -filter:v scale=-1:480 -threads 4 -an marmot.webm -->
 
-<video style="width: 100%; height: 100%;" autoplay loop>
+<video style="width: 100%; height: 100%;" autoplay loop muted>
   <source src="{{ "/public/images/2018/09/hiking/marmot.webm" | relative_url }}" type="video/webm; codecs=vp9">
 </video>
 

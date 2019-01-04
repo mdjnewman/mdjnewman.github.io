@@ -56,7 +56,7 @@ On Sunday I went to [Shark Valley](https://en.wikipedia.org/wiki/Shark_Valley)
 in the Everglades where I hired a bike and rode a 24 km loop. There were so
 many alligators!
 
-<video style="width: 100%; height: 100%;" autoplay loop>
+<video style="width: 100%; height: 100%;" autoplay loop muted>
   <source src="{{ "/public/images/2018/04/fl/alligator-trimmed.webm" | relative_url }}" type="video/webm; codecs=vp9">
 </video>
 <!--
