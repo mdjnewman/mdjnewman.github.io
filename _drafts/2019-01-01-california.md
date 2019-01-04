@@ -15,7 +15,7 @@ After working most of Friday from the ThoughtWorks office in the SoMa (South of
 Market) area, we took a walk through Chinatown to Coit Tower on Telegraph Hill,
 where I got my first views of the bay.
 
-{% include figure.html src="/public/images/2018/12/20181102-coit-tower.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181102-coit-tower.jpg" %}
 
 Despite being very hilly, SF is a walkable city. We continued down to
 Fisherman's Wharf and on to the [Palace of Fine Arts][arts-palace] in the
@@ -26,11 +26,11 @@ We rented bikes on Saturday, and rode from [North Beach][north-beach] across
 the Golden Gate Bridge, back to Sutro Heights and through the Presidio on the
 way back. Lots of great views, the photos below don't really do it justice!
 
-{% include figure.html src="/public/images/2018/12/20181102-coit-tower.jpg" %}
-{% include figure.html src="/public/images/2018/12/20181103-gg-bridge.jpg" %}
-{% include figure.html src="/public/images/2018/12/20181103-gg-bridge-2.jpg" %}
-{% include figure.html src="/public/images/2018/12/20181103-ocean-beach.jpg" %}
-{% include figure.html src="/public/images/2018/12/20181103-sunset.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181102-coit-tower.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181103-gg-bridge.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181103-gg-bridge-2.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181103-ocean-beach.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181103-sunset.jpg" %}
 
 I think this might have been the first time I've seen the sun setting over an
 ocean … I've always lived near eastern coasts so sunrise over the ocean feels
@@ -56,55 +56,55 @@ Trail][mount-zion-loop]
   </iframe>
 </div>
 
-{% include figure.html src="/public/images/2018/12/20181207-mt-zion-loop.jpg" %}
-{% include figure.html src="/public/images/2018/12/20181207-take-care.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181207-mt-zion-loop.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181207-take-care.jpg" %}
 
 For the second day we drove to [Joshua Tree National Park][jtree] and did the
 [Lost Horse Mine Loop Trail][lost-horse-mine].
 
-{% include figure.html src="/public/images/2018/12/20181208-jtree-view-1.jpg" %}
-{% include figure.html src="/public/images/2018/12/20181208-jtree-tree.jpg" %}
-{% include figure.html src="/public/images/2018/12/20181208-jtree-cap-rock.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181208-jtree-view-1.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181208-jtree-tree.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181208-jtree-cap-rock.jpg" %}
 
 I managed to sneak in a visit to [The Getty][getty]:
 
-{% include figure.html src="/public/images/2018/12/20181209-getty.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181209-getty.jpg" %}
 
 And to [Griffith Observatory][griffith] to get the obligatory selfie with the
 Hollywood sign before flying out on Sunday:
 
-{% include figure.html src="/public/images/2018/12/20181209-hollywood.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181209-hollywood.jpg" %}
 
 Part 3 - Drive from LA → SF
 ---------------------------
 
 After landing in LA on Boxing Day morning, I took a couple of days to drive up
-to San Francisco, mostly along [California State Route 1][ca-1] (a.k.a the
+to San Francisco, mostly along [California State Route 1][ca-1] (a.k.a. the
 Pacific Coast Highway). It's a lovely drive, a few highlights include:
 
-Beutiful beaches along the way:
+Beautiful beaches along the way:
 
-{% include figure.html src="/public/images/2018/12/20181226_104036-beaches.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181226_104036-beaches.jpg" %}
 
 Elephant seals:
 
 <video style="max-width: 100%; margin: 0 auto; display: block;" autoplay loop muted>
-  <source src="{{ "/public/images/2018/12/20181227_110553-seals.webm" | relative_url }}" type="video/webm; codecs=vp9">
+  <source src="{{ "/public/images/2019/01/california/20181227_110553-seals.webm" | relative_url }}" type="video/webm; codecs=vp9">
 </video>
 
 <p></p>
 
 The Buzzards Roost trail in [Big Sur State Park][big-sur]:
 
-{% include figure.html src="/public/images/2018/12/20181227_133656-big-sur.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181227_133656-big-sur.jpg" %}
 
 [Carmel-by-the-Sea][carmel]:
 
-{% include figure.html src="/public/images/2018/12/20181227_145831-carmel-by-the-sea.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181227_145831-carmel-by-the-sea.jpg" %}
 
 And finally Monterey:
 
-{% include figure.html src="/public/images/2018/12/20181227_155218-monterey.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181227_155218-monterey.jpg" %}
 
 Part 4 - San Francisco (again)
 ------------------------------
@@ -116,11 +116,12 @@ party/Christmas calories 😂
 The only visits outside SF were to Sausalito and a hike in the Claremont Canyon
 Regional Preserve in Berkeley. Some select photos:
 
-{% include figure.html src="/public/images/2018/12/20181228_114103-pier-39.jpg" %}
-{% include figure.html src="/public/images/2018/12/20181228_153117-gg-bridge-from-bakers-beach.jpg" %}
-{% include figure.html src="/public/images/2018/12/20181229_114417-lombard-st.jpg" %}
-{% include figure.html src="/public/images/2018/12/20181230_164732-sf-from-sausalito.jpg" %}
-{% include figure.html src="/public/images/2018/12/20190101_001531-fireworks.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181228_114103-pier-39.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181228_153117-gg-bridge-from-bakers-beach.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181229_114417-lombard-st.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181230_092405-sf-from-berkeley.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20181230_164732-sf-from-sausalito.jpg" %}
+{% include figure.html src="/public/images/2019/01/california/20190101_001531-fireworks.jpg" %}
 
 [ca]: https://en.wikipedia.org/wiki/California
 [arts-palace]: https://en.wikipedia.org/wiki/Palace_of_Fine_Arts
