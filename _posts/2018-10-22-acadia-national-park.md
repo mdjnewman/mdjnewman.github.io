@@ -33,7 +33,7 @@ The weather wasn't great to start, but the views were still worth the effort.
 
 Some pretty strong winds had the clouds blown away in no time!
 
-<video style="max-width: 100%; margin: 0 auto; display: block;" autoplay loop muted>
+<video style="max-width: 100%; display: block;" autoplay loop muted>
   <source src="{{ "/public/images/2018/10/acadia/cadillac-3.webm" | relative_url }}" type="video/webm; codecs=vp9">
 </video>
 

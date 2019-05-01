@@ -88,7 +88,7 @@ Beautiful beaches along the way:
 
 Elephant seals:
 
-<video style="max-width: 100%; margin: 0 auto; display: block;" autoplay loop muted>
+<video style="max-width: 100%; display: block;" autoplay loop muted>
   <source src="{{ "/public/images/2019/01/california/20181227_110553-seals.webm" | relative_url }}" type="video/webm; codecs=vp9">
 </video>
 

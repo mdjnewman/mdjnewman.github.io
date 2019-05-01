@@ -69,7 +69,7 @@ Blanche, but there was lots of snow on the trail by the top.
 I'm happy anywhere aspen leaves are shaking in the wind!
 
 <!-- ffmpeg -ss 00:00:04 -i 20181013_165624.mp4 -t 00:00:05 -vcodec libvpx-vp9 -b:v 700K -filter:v scale=-1:480 -threads 4 -an bells-canyon-6.webm  -->
-<video style="max-width: 100%; margin: 0 auto; display: block;" autoplay loop muted>
+<video style="max-width: 100%; display: block;" autoplay loop muted>
   <source src="{{ "/public/images/2018/10/slc/bells-canyon-6.webm" | relative_url }}" type="video/webm; codecs=vp9">
 </video>
 
