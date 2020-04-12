@@ -37,12 +37,12 @@ The steps I followed to do this were relatively simple:
 1. Completed the CloudFlare onboarding, during which I imported the above zone file
 1. Updated the authoritative DNS servers for my domain to the
    `*.ns.cloudflare.com` name servers:
-    ![Update name servers](/public/images/2017/07/migrating-to-https-nameservers.png)
+    ![Update name servers]({{ "/public/images/2017/07/migrating-to-https-nameservers.png" | relative_url }})
 1. Tested the site out,
    [fixed](https://github.com/mdjnewman/mdjnewman.github.io/commit/4b2a2237e1c00d9e280566f6d288f5870e250927)
    a CSS link that was loaded over HTTP
 1. Forced HTTPS in CloudFlare:
-    ![Enforcing HTTPS with CloudFlare](/public/images/2017/07/migrating-to-https-enforce-https.png)
+    ![Enforcing HTTPS with CloudFlare]({{ "/public/images/2017/07/migrating-to-https-enforce-https.png" | relative_url }})
 
 ... and that was it. I finished this in part of an afternoon.
 
