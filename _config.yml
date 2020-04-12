@@ -13,7 +13,7 @@ paginate:            5
 # About/contact
 author:
   name:              Matt Newman
-  url:               http://mdjnewman.me
+  url:               https://mdjnewman.me
 
 exclude: [".editorconfig", ".gitignore", "CNAME", "Gemfile", "Gemfile.lock", "README.md"]
 include: [".well-known"]
