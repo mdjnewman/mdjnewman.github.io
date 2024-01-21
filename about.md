@@ -8,7 +8,7 @@ layout: page
 ---
 
 My name is Matt Newman, I’m a software developer for [Thoughtworks](https://www.thoughtworks.com/).
-I started out in Brisbane, but I'm now based in Chicago
+I started out in Brisbane, but I'm now based in Chicago.
 
 Prior to starting at ThoughtWorks in mid-2014 I graduated with a dual Bachelor of
 Engineering (Software) (Hons I) & Commerce (Finance) from The University of
