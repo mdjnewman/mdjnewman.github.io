@@ -6,12 +6,15 @@ redirect_from:
  - /contact-me/
 layout: page
 ---
-My name is Matt Newman, I’m a software developer currently employed by
-ThoughtWorks Australia, on assignment to the Dallas office in the US.
+
+My name is Matt Newman, I’m a software developer for [Thoughtworks](https://www.thoughtworks.com/).
+I started out in Brisbane, but I'm now based in Chicago
 
 Prior to starting at ThoughtWorks in mid-2014 I graduated with a dual Bachelor of
 Engineering (Software) (Hons I) & Commerce (Finance) from The University of
 Queensland (UQ), Brisbane, Australia.
+
+My hobbies include photography, birding, hiking and cycling.
 
 Contact
 -------
