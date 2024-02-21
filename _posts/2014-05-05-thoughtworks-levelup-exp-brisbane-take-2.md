@@ -127,7 +127,7 @@ from your favourite shell. In the talk, it was possible to get this environment 
 
 The second LevelUp EXP event in Brisbane was eye-opening, and I think the attendees learnt a lot to complement what is taught at university. If you attended/presented and I’ve omitted anything, please let me know and I’ll fix it up. My post about the first Brisbane LevelUp event is [here][23], and more about ThoughtWorks LevelUp can be found on Twitter ([@TW_LevelUp](https://twitter.com/TW_LevelUp)) and [Facebook](https://www.facebook.com/ThoughtworksLevelUp).
 
- [2]: http://levelup.thoughtworks.com/ "LevelUp"
+ [2]: https://www.thoughtworks.com/en-au/about-us/events/level-up "LevelUp"
  [3]: https://twitter.com/markryall "Mark Ryall (markryall) on Twitter"
  [4]: http://docs.seleniumhq.org/projects/webdriver/ "Selenium WebDriver"
  [5]: http://www.specflow.org/ "Specflow - Cucumber for .NET"
