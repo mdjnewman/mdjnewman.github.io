@@ -61,7 +61,7 @@ The last presentation before the keynote was by Jean D’amore ([@jeandamore][5]
       * Don’t: dismiss too quickly, use recruitment agencies, work on projects you don’t agree with (everything you do has an impact and will impact you), waste too much time searching on-line (do spend more time talking to people)
   3. Your CV (The Colour of Money) 
       * Do: PDF it!, make it unique, know what’s on it, web design it (use web design principles – e.g. readability, don’t cram everything in), make it one page, get friends to read it, start with skills over education
-      * Don’t: lie/exaggerate, rush it, use ‘[bullshit bingo][6]’ words (except in a few cases where it’s in the ad – in this case, always explain and give examples)
+      * Don’t: lie/exaggerate, rush it, use ‘bullshit bingo’ words (except in a few cases where it’s in the ad – in this case, always explain and give examples)
   4. Applying (Close Encounters of the Third Kind) 
       * You need to understand and be understood
       * Do: strike with precision, add a cover letter, apply to people (not computers), customise your CV, wait, follow-up, be organised
@@ -112,7 +112,6 @@ Thanks again to ThoughtWorks for running this mini-conference – you’ve done 
  [3]: https://twitter.com/jms_ "James Ottaway (jms_) on Twitter"
  [4]: http://www.reactiveui.net/ "ReactiveUI"
  [5]: https://twitter.com/jeandamore "Jean D'amore (jeandamore) on Twitter"
- [6]: http://dilbert.com/strips/comic/1994-02-22/ "Dilbert comic strip for 02/22/1994"
  [7]: http://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs "Maslow's hierarchy of needs"
  [8]: https://twitter.com/ChadRenando "Chad Renando (ChadRenando) on Twitter"
  [9]: http://www.authentichappiness.sas.upenn.edu/aiesec/content.aspx?id=821 "VIA - Inventory of Strengths"
