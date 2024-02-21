@@ -28,8 +28,8 @@ It was a fun week of hiking (89 km) and driving (2,261 km), with a little planni
 * [AllTrails](https://www.alltrails.com/) worked really well for organising
   hikes. I paid for a lifetime Pro membership, which meant I could download
   trails for offline use (very handy in the more remote parks)
-* [Airbnb](www.airbnb.com.au/c/mattn226) rooms near the hiking spots meant I
-  could get up early and beat the crowds & heat
+* Airbnb rooms near the hiking spots meant I could get up early and beat the
+  crowds & heat
 * An [America the Beautiful Pass](https://www.nps.gov/planyourvisit/passes.htm)
   covered the entrance fees at all the national parks
 * A [3L Osprey Raptor 14
@@ -192,4 +192,3 @@ mountains. In my mind dunes belong in deserts or at the coast, not at 8,200
 feet elevation in the foothills of mountains.
 
 {% include figure.html src="/public/images/2018/09/hiking/20180911_174442.jpg" %}
-

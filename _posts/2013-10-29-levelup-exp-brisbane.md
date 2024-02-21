@@ -114,7 +114,7 @@ Thanks again to ThoughtWorks for running this mini-conference – you’ve done 
  [5]: https://twitter.com/jeandamore "Jean D'amore (jeandamore) on Twitter"
  [7]: http://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs "Maslow's hierarchy of needs"
  [8]: https://twitter.com/ChadRenando "Chad Renando (ChadRenando) on Twitter"
- [9]: http://www.authentichappiness.sas.upenn.edu/aiesec/content.aspx?id=821 "VIA - Inventory of Strengths"
+ [9]: https://en.wikipedia.org/wiki/Values_in_Action_Inventory_of_Strengths "Values in Action Inventory of Strengths - Wikipedia"
  [10]: http://yowconference.com.au "YOW! | Australian Developer Conference"
  [11]: http://yowaustralia.com.au/general/yownights.html "YOW! Nights"
  [12]: http://www.meetup.com/Brisbane-Functional-Programming-Group/ "BFPG"
