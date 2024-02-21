@@ -229,8 +229,8 @@ enough for now!
 [prem-optimisation]: http://wiki.c2.com/?PrematureOptimization
 [visualvm]: https://visualvm.github.io/
 [axon]: http://www.axonframework.org/
-[simplecommandbus]: https://github.com/AxonFramework/AxonFramework/blob/master/core/src/main/java/org/axonframework/commandhandling/SimpleCommandBus.java
-[asynchronouscommandbus]: https://github.com/AxonFramework/AxonFramework/blob/master/core/src/main/java/org/axonframework/commandhandling/AsynchronousCommandBus.java
+[simplecommandbus]: https://github.com/AxonFramework/AxonFramework/blob/fd88dfe/messaging/src/main/java/org/axonframework/commandhandling/SimpleCommandBus.java
+[asynchronouscommandbus]: https://github.com/AxonFramework/AxonFramework/blob/fd88dfe/messaging/src/main/java/org/axonframework/commandhandling/AsynchronousCommandBus.java
 [different-serializer-for-events]: https://docs.axonframework.org/part4/performance-tuning.html#different-serializer-for-events
 [jackson]: https://github.com/FasterXML/jackson
 

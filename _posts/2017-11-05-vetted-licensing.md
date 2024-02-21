@@ -36,8 +36,7 @@ commercial version, with the following caveats:
 
 Given what I've learned above, I'm planning to license the project under an OSS
 license, but I won't accept any contributions until I've got some kind of
-Contributor License Agreement (CLA) in place. This is a common approach, take a
-look at the [GitHub CLA][gh-cla].
+Contributor License Agreement (CLA) in place.
 
 This is likely the first of many posts where it might seem I'm researching a
 topic and deliberating a little excessively, given I have no working software
@@ -53,14 +52,10 @@ opportunity for me.
 Further resources:
 
 * [choosealicense.com](https://choosealicense.com)
-* [GitHub CLA][gh-cla]
 * [Phil Haack's excellent three part series][haacked-part-1]
 * [Open source licensing: What every technologist should know][what-every-techy-should-know]
-* [Developer Supply Chain Management][developer-scm]
 
 
 [vetted-a-new-hope]: /2017/11/vetted-a-new-hope/
-[gh-cla]: https://cla.github.com/
 [what-every-techy-should-know]: https://opensource.com/article/17/9/open-source-licensing
 [haacked-part-1]: https://haacked.com/archive/2006/01/24/TheDevelopersGuideToCopyrightLaw-Part1.aspx
-[developer-scm]: http://blogs.tedneward.com/post/developer-scm/

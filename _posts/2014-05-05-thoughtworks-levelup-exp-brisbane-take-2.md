@@ -136,7 +136,7 @@ The second LevelUp EXP event in Brisbane was eye-opening, and I think the attend
  [8]: https://www.google.com.au/search?q=agile+lego+game "agile lego game - Google"
  [9]: https://henrylawson.net/ "Henry Lawson: Home"
  [10]: http://agilemanifesto.org/ "Manifesto for Agile Software Development"
- [13]: https://www.wickedproblems.com/1_wicked_problems.php "Wicked Problems: Problems Worth Solving"
+ [13]: https://en.wikipedia.org/wiki/Wicked_problem "Wicked problem - Wikipedia"
  [14]: https://twitter.com/hugo_firth "Hugo (hugo_firth) on Twitter"
  [15]: http://www.meetup.com/Brisbane-Functional-Programming-Group/ "Brisbane Functional Programming Group (BFPG) (Brisbane)"
  [16]: https://twitter.com/claudia_onfire "claudia ferreira (claudia_onfire) on Twitter"
